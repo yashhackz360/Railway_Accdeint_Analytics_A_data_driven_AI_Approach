@@ -21,41 +21,6 @@ This project provides a comprehensive platform for analyzing railway accident da
 -   Power BI (optional for advanced visualization)
 -   Groq API (for LLaMA integration)
 
-## Setup and Installation
-
-1.  **Clone the Repository**
-
-git clone [repository URL]
-cd [repository directory]
-
-text
-
-2.  **Install Dependencies**
-
-pip install -r requirements.txt
-
-text
-
-3.  **API Key Configuration**
-
-    -   Obtain a Groq API key from [Groq's website].
-    -   Set the API key in `llama_Assitant.py`:
-
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
-
-text
-
-## Usage
-
-1.  **Run the Streamlit Application**
-
-streamlit run main.py
-
-text
-
-2.  **Access the Application**
-
-    -   Open your browser and navigate to the address provided by Streamlit (usually `http://localhost:8501`).
 
 ## Modules
 
