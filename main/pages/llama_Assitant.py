@@ -5,7 +5,7 @@ import requests
 def show():
     # ✅ API Setup (For general safety queries only)
     GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-    GROQ_API_KEY = "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"  # Replace with your actual API key
+    GROQ_API_KEY = ""  # Replace with your actual API key
 
     # ✅ Load Railway Accident Data
     @st.cache_data
