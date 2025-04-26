@@ -70,20 +70,20 @@ Ready to jump in? Follow these simple steps:
 
 ## 🗂️ Project Structure
 
-Here's a sneak peek into the project's file structure:
-Railway-Accident-Analytics-Platform/
-├── main.py # 🚀 Main Streamlit application
-├── pages/ # 📄 Contains individual pages
-│ ├── Home_overview.py # 🏠 Home page
-│ ├── Insights_and_Analysis.py # 🔍 Data analysis and visualization
-│ ├── Power_BI_Report.py # 📊 Power BI integration
-│ ├── Predictive_Model.py # 🌳 Machine learning model
-│ └── llama_Assitant.py # 🤖 AI assistant powered by LLaMA
-├── data/ # 💾 Data files
-│ ├── train_accident_analysis-dataset.csv # 📜 Historical accident data
-│ └── enhanced_accident_data.csv # ✨ Processed data for modeling
-├── README.md # 📖 You are here!
-└── requirements.txt # 📦 Project dependencie
+```
+├── main.py                   # 🚀 Main Streamlit application
+├── pages/                    # 📄 Individual app pages
+│   ├── Home_overview.py         # 🏠 Home page overview
+│   ├── Insights_and_Analysis.py # 🔍 Exploratory data analysis and insights
+│   ├── Power_BI_Report.py       # 📊 Embedded Power BI dashboard
+│   ├── Predictive_Model.py      # 🌳 Predictive modeling for accident severity
+│   └── llama_Assistant.py       # 🤖 AI assistant powered by LLaMA
+├── data/                     # 💾 Datasets
+│   ├── train_accident_analysis-dataset.csv # 📜 Raw historical accident data
+│   └── enhanced_accident_data.csv          # ✨ Enhanced dataset for modeling
+├── README.md                  # 📖 Project overview and guide
+└── requirements.txt           # 📦 Python dependencies
+```
 
 ## 🧩 Module Breakdown
 
