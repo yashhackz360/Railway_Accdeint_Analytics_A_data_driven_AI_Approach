@@ -1,4 +1,5 @@
 # 🚄 Railway Accident Analytics Platform 📊
+![UI](home.png)
 
 ## 🌟 Overview
 
