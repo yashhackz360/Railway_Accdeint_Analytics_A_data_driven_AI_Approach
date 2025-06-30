@@ -21,7 +21,7 @@ def show():
             st.download_button(
                 label="Download the Dataset",
                 data=csv,
-                file_name="Indian_Railways_Accidents_Dataset_1902_2024.xlsx",  # Corrected file name
+                file_name="train_Accident_1900_2024_cleaned.xlsx",  # Corrected file name
             )
     except FileNotFoundError:
         # Display an error if the file is not found
