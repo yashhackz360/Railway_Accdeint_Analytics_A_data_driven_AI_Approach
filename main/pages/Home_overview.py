@@ -13,7 +13,7 @@ def show():
     # Instructions to the user
     st.write(" Download the dataset by clicking the button below. ")
     # Provide the absolute path to the file
-    csv_path = r"C:/Users/yashw/Desktop/6 th sem project ideas/train_Accident_1900_2024_cleaned.xlsx"
+    csv_path = r"Assets/train_Accident_1900_2024_cleaned.xlsx"
 
     try:
         # Attempt to open 
