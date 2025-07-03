@@ -11,7 +11,7 @@ def show():
     @st.cache_data
     def load_data():
         try:
-            df = pd.read_csv("main/Assets/train_Accident_1900_2024_cleaned.xlsx")
+            df = pd.read_csv("Assests/train_Accident_1900_2024_cleaned.csv")
             return df
         except FileNotFoundError:
             st.error("⚠️ Railway accident dataset not found!")
