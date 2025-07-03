@@ -13,7 +13,7 @@ def show():
     # Instructions to the user
     st.write(" Download the dataset by clicking the button below. ")
     # Provide the absolute path to the file
-    csv_path = r". ./Assets/train_Accident_1900_2024_cleaned.xlsx"
+    csv_path = r"Assests/train_Accident_1900_2024_cleaned.csv"
 
     try:
         # Attempt to open 
@@ -21,7 +21,7 @@ def show():
             st.download_button(
                 label="Download the Dataset",
                 data=csv,
-                file_name="train_Accident_1900_2024_cleaned.xlsx",  # Corrected file name
+                file_name="train_Accident_1900_2024_cleaned.csv",  # Corrected file name
             )
     except FileNotFoundError:
         # Display an error if the file is not found
