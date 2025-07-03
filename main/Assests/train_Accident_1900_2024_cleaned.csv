@@ -1,0 +1,291 @@
+Year,Month,Day,Accident Name,Train Name,Location,State,Accident Rail Zone,Accident Type,Standard Accident Type,Cause,Deaths,Injuries,Rescue Time (hrs),Reforms/Changes,Standard Cause Type
+1902,September,12,Bombay-Madras Mail Derailment,Bombay-Madras Mail,"Near Mangapatnam, Kadapa District",Andhra Pradesh,South Central,Derailment,Derailment,Structural failure on bridge,100,138,4,Enhanced bridge inspections,Weather Conditions
+1907,October,24,Kot Lakhpat Train Collision,Passenger & Freight,Kot Lakhpat Station,Gujarat,North Western,Collision,Collision,Signal miscommunication,11,27,7,Improved signal communication systems,Technical Fault
+1908,December,2,Barara Train Collision,Mail Trains,Barara Station,Haryana,Northern,Collision,Collision,Human error,22,24,7,Stricter rules for train dispatching,Technical Fault
+1920,April,27,Doon Express Train Collision,Doon Express & Goods Train,Near Moradabad,Uttar Pradesh,Northern,Collision,Collision,Signal failure,120,50,7,Improved signal maintenance,Technical Fault
+1920,October,7,Madras-Bangalore Mail Derailment,Madras-Bangalore Mail,3 km past Arakkonam,Tamil Nadu,Southern,Derailment,Derailment,Track fracture,40,64,7,Enhanced track monitoring,Weather Conditions
+1937,July,17,Upper India Express Derailment,Upper India Express,"Near Bihta Station, Patna",Bihar,East Central,Derailment,Derailment,Excessive speed,119,180,7,Speed limits enforced on embankments,Weather Conditions
+1942,October,4,Frontier Mail Accident,Frontier Mail,64 km NE of Bombay (Mumbai),Maharashtra,Central,Derailment,Derailment,Sabotage/Sabotage-related,12,40,7,Strengthened security on railways,Weather Conditions
+1950,April,12,Kumaon Express Derailment,Kumaon Express,Crashed into a river,Uttarakhand,Northern,Derailment,Derailment,Track failure,50,29,7,Enhanced bridge maintenance,Weather Conditions
+1950,May,7,Bihar Train Bridge Collapse,Unknown,Bihar,Bihar,East Central,Derailment,Derailment,Bridge collapse,81,100,5,New bridge safety protocols,Weather Conditions
+1951,September,3,Sharanpur Express Derailment,Sharanpur Express,18 km from Delhi,Delhi,Northern,Derailment,Derailment,Unknown,10,30,7,Stricter maintenance checks,Weather Conditions
+1953,June,23,Sempaore-Kalihar Train Collision,Passenger & Freight Train,Between Sempaore and Kalihar,Bihar,East Central,Collision,Collision,Signal miscommunication,5,50,3,Improved signal communication,Technical Fault
+1954,January,4,Bhatinda Bridge Derailment,Passenger Train,Near Bhatinda,Punjab,Northern,Derailment,Derailment,Structural failure,15,40,7,Improved bridge inspection,Weather Conditions
+1954,March,31,Gorakhpur Explosive Train Accident,Passenger Train,Near Gorakhpur,Uttar Pradesh,North Eastern,Explosion,Bombing,Transporting explosives,31,32,7,Restrictions on explosive transport,Sabotage
+1954,September,15,Train-Truck Collision,Unknown,130 km north of New Delhi,Haryana,Northern,Collision,Collision,Truck at crossing,10,18,4,Safety measures at railway crossings,Technical Fault
+1954,September,27,319 Down Express Derailment,319 Down Express,Between Jangaon and Raghunathpalli,Telangana,South Central,Derailment,Derailment,Girder bridge failure,136,79,7,Strengthened bridge inspections,Weather Conditions
+1954,September,28,Yasanti River Train Crash,Unknown,75 km south of Hyderabad,Telangana,South Central,Derailment,Derailment,Bridge collapse,139,100,7,Strengthened bridge inspections,Weather Conditions
+1956,September,2,Mahbubnagar Train Accident,Unknown,Between Jadcherla and Mahbubnagar,Telangana,South Central,Derailment,Derailment,Bridge collapse,125,22,7,Bridge structure improvements,Weather Conditions
+1956,November,23,Ariyalur Train Accident,Madras-Tuticorin Express,282 km south of Madras,Tamil Nadu,Southern,Derailment,Derailment,Flood-damaged embankment,104,100,7,Better flood-risk management,Weather Conditions
+1957,June,2,Bombay Train Collision,Passenger Train,Bombay,Maharashtra,Central,Collision,Collision,Train running over signal,18,53,7,Stricter signal adherence protocols,Technical Fault
+1957,July,23,Tatanagar Train Collision,Gua-Tata & 304 Down Hazaribagh-Ranchi-Howrah Express,Tatanagar,Jharkhand,South Eastern,Collision,Collision,Signal miscommunication,#N/A,#N/A,3,Improved signal systems,Technical Fault
+1957,August,19,Janata Express Accident,Janata Express,Between Palasa and Pundi stations,Andhra Pradesh,East Coast,Derailment,Derailment,Track failure,4,9,3,Stricter maintenance protocols,Weather Conditions
+1957,August,21,Katpadi Junction Explosion,Goods Wagon,Katpadi Junction,Tamil Nadu,Southern,Explosion,Bombing,Crackers exploded in wagon,5,12,4,Safety guidelines for transporting explosives,Sabotage
+1957,November,8,Kosma Station Train Collision,Unknown,Kosma Station,Uttar Pradesh,Northern,Collision,Collision,Signal failure,#N/A,#N/A,3,Signal system upgrades,Technical Fault
+1957,November,23,Bombay-Calcutta Mail Derailment,Bombay-Calcutta Mail,Near Padali,Maharashtra,Central,Derailment,Derailment,Track failure,9,54,4,Stricter track inspections,Weather Conditions
+1958,May,21,Chamaraj Express Train Derailment,Express Train,Near Chamaraj,Karnataka,Southern,Derailment,Derailment,Unknown,31,41,7,Improved track safety measures,Weather Conditions
+1959,October,20,Bidanpur Station Head-on Collision,Agra Cantt-Allahabad Passenger & Ratlam Goods Special,Bidanpur Station,Uttar Pradesh,Northern,Collision,Collision,Human error,#N/A,#N/A,8,Stricter protocols for head-on collisions,Technical Fault
+1961,January,4,Umeshnagar Head-on Collision,Passenger Trains,Near Umeshnagar,Bihar,East Central,Collision,Collision,Signal failure,35,61,4,Improved signal protocols,Technical Fault
+1961,March,8,Kalihar Collision,Passenger & Freight Train,Between Kalihar and Bihar,Bihar,East Central,Collision,Collision,Signal miscommunication,11,37,4,Enhanced communication protocols,Technical Fault
+1961,October,20,Ranchi Express Derailment,Ranchi Express,200 km from Kolkata,West Bengal,Eastern,Derailment,Derailment,Track failure,47,#N/A,7,Stricter track maintenance,Weather Conditions
+1962,July,22,Punjab Mail Dumraon Collision,Punjab Mail,Dumraon Railway Station,Bihar,East Central,Collision,Collision,Goods train on track,110,#N/A,7,Signal system improvements,Technical Fault
+1963,July,22,Udyan Abha Toofan Express Derailment,Udyan Abha Toofan Express,Etmadpur near Tundla Junction,Uttar Pradesh,North Central,Derailment,Derailment,Unknown,120,#N/A,7,Stricter inspection protocols,Weather Conditions
+1964,December,23,Pamban-Dhanuskodi Train Washed Away,Pamban-Dhanuskodi Passenger,Rameswaram,Tamil Nadu,Southern,Derailment,Derailment,Cyclone,130,#N/A,7,Weather warning system improvements,Weather Conditions
+1965,June,19,Railway Worker Train Collision,Freight & Railway Worker Train,800 km from Mumbai,Maharashtra,Central,Collision,Collision,Miscommunication,15,#N/A,7,Safety guidelines for worker trains,Technical Fault
+1966,February,16,Mail Express Bombing,Mail Express,Assam,Assam,North East Frontier,Explosion,Bombing,Bombing (Naga separatists),27,#N/A,5,Increased security measures,Sabotage
+1966,April,20,Lumding Station Bombing,Unknown,Lumding Railway Station,Assam,North East Frontier,Explosion,Bombing,Bombing (Naga separatists),55,127,5,Increased station security,Sabotage
+1966,April,23,Diphu Station Bombing,Unknown,Diphu Railway Station,Assam,North East Frontier,Explosion,Bombing,Bombing (Naga separatists),40,60,5,Enhanced surveillance measures,Sabotage
+1966,June,13,Matunga Train Collision,Passenger Trains,Near Matunga Railway Station,Maharashtra,Central,Collision,Collision,Signal failure,57,100,5,Signal system upgrades,Technical Fault
+1968,March,19,Yalvigi Station Collision,Deccan Express & Birur-Hubli Passenger,Yalvigi Station,Karnataka,Southern,Collision,Collision,Signal failure,53,42,7,Improved communication protocols,Technical Fault
+1969,February,4,Bridge Girder Incident,Passenger Train,Near Madras,Tamil Nadu,Southern,Derailment,Derailment,Roof passengers struck by girder,32,50,7,Roof passenger safety improvements,Weather Conditions
+1969,June,21,Magari River Train Derailment,Unknown,Muhammadabad,Uttar Pradesh,North Eastern,Derailment,Derailment,Unknown,70,130,7,Stricter track and bridge inspections,Weather Conditions
+1969,July,14,Jaipur Train Collision,Passenger Train,Jaipur,Rajasthan,North Western,Collision,Collision,Goods train collision,85,130,7,Improved station signal protocols,Technical Fault
+1970,April,28,Barauni Kanpur Passenger Train Collision,31 Up Barauni Kanpur Passenger Train,Lucknow Junction,Uttar Pradesh,Northern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1970,May,29,Janata Express Train Derailment,18 Up Delhi-Madras Janata Express,Talamanchi Station,Andhra Pradesh,South Central,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1970,September,28,Amritsar-Howrah Mail Derailment,6 Down Amritsar-Howrah Mail,Karna Station,Uttar Pradesh,Northern,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1970,October,26,Head-on Collision,1 Ajd Up Passenger Train and 456 Down Goods Train,Khurja Junction Station,Uttar Pradesh,Northern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1970,October,31,Madras-Mangalore Mail Collision,1 Down Madras-Mangalore Mail and 19 Down Madras Cochin Mail,Perambur Station,Tamil Nadu,Southern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1970,November,5,Diesel Erb Special Collision,Down Diesel Erb Special 1 and 46 Down (Hyderabad-Howrah Express),Between Retang and Bhubaneswar Stations,Odisha,East Coast,Collision,Collision,-,#N/A,#N/A,1,#N/A,Technical Fault
+1971,January,6,Ranaghat-Barasat Local Trains Collision,R 81 Up Ranaghat Local and T151 Up Barasat Local Trains,Dum Dum Junction Station,West Bengal,Eastern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1971,April,25,Head-on Collision,102 Do-4 Up Goods Train and 395 Wardha Kazipet Passenger Train,Near Asifabad Road Station,Telangana,South Central,Collision,Collision,-,#N/A,#N/A,4,#N/A,Technical Fault
+1971,June,26,Borivli-Churchgate Suburban Train Crash,Borivli-Churchgate Suburban Train,Goregaon Yard,Maharashtra,Western,Collision,Collision,-,#N/A,#N/A,1,#N/A,Technical Fault
+1971,November,11,Lucknow Store Incharge Death,,Lucknow,Uttar Pradesh,Northern,Fatality,Fatality,-,#N/A,#N/A,8,#N/A,Unknown
+1972,April,26,Train Derailment,,Mysore State,Karnataka,South Western,Derailment,Derailment,-,21,37,7,#N/A,Weather Conditions
+1972,June,28,Udaipur City-Marwar Passenger Train Derailment,222 Down Udaipur City-Marwar Jn. Passenger Train,Between Phulad and Marwar Ranawas Stations,Rajasthan,North Western,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1973,July,27,South Bihar Express Rear Collision,87 Up South Bihar Express and 5 Up Howrah Amritsar Mail,Km. 291.767 between Joramow Block Hut and Madhupur Junction Station,Jharkhand,Eastern,Collision,Collision,-,#N/A,#N/A,3,#N/A,Technical Fault
+1973,December,12,Rear-End Collision,358 Up Itarsi-Bhusaval Passenger and Stationary Goods Train No.L-30 Up,Burhanpur Station,Madhya Pradesh,West Central,Collision,Collision,-,#N/A,#N/A,1,#N/A,Technical Fault
+1974,February,21,Passenger-Freight Train Collision,Passenger Train and Freight Train,Moradabad,Uttar Pradesh,Northern,Collision,Collision,-,41,63,7,#N/A,Technical Fault
+1974,March,9,Mixed Train Derailment,662 Up Mixed Train,Between Sillipur and Birpur Stations,Madhya Pradesh,West Central,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1974,July,2,Rear-End Collision,55 Up Patna Delhi Express and Stationary Up Amritsar Special Goods,Chandausi Junction Station,Uttar Pradesh,Northern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1974,November,12,Fire on Sealdah Samastipur Fast Passenger,311 Up Sealdah Samastipur Fast Passenger,Between Rampur Dumra and Hatidih Link Cabin,Bihar,East Central,Fire,Fire,-,#N/A,#N/A,1,#N/A,Human Error
+1975,February,26,Kamrup Express Derailment,59 Up Kamrup Express,Between New Jalpaiguri and Ambari Falakata Stations,West Bengal,North East Frontier,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1975,January,29,Darjeeling Mail Collision,43 Up Darjeeling Mail and the rear of H. 185 Up Habra Local,Ultadanga Road Station,West Bengal,Eastern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1975,March,26,Sealdah Lalgola Passenger Derailment,365 Up Sealdah Lalgola Passenger Train,Birnagar Station,West Bengal,Eastern,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1975,November,26,Dehra Dun Express Derailment,20 Up Dehra Dun Express,Virar Station,Maharashtra,Western,Derailment,Derailment,-,#N/A,#N/A,1,#N/A,Weather Conditions
+1976,January,6,Cochin Harbour Terminus Mail Derailment,20 Up Cochin Harbour Terminus Madras Central Mail,Between Mukundarayapuram and Walajah Road Junction Stations,Tamil Nadu,Southern,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1976,May,24,Kurla Wiring Train Collision,Kurla Wiring Train and N-9 Down Local Train,Between Vikhroli and Kanjur Marg Stations,Maharashtra,Central,Collision,Collision,-,#N/A,#N/A,1,#N/A,Technical Fault
+1976,July,14,Mixed Train Derailment,234 Down Mixed Train,Between Golaghat and Furkating,Assam,North East Frontier,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1976,August,30,Kamrup Express Derailment,59 Up Kamrup Express,Between Samsi and Bhaluka Road Stations,West Bengal,North East Frontier,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1976,October,11,Patna Hatia Express Derailment,23 Up Patna Hatia Express,Between Silli and Kita Stations,Jharkhand,South Eastern,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1976,October,23,Suburban Train Derailment,No. 371 Down Suburban Train,Bandra Station,Maharashtra,Western,Derailment,Derailment,-,#N/A,#N/A,1,#N/A,Weather Conditions
+1976,November,17,Double Collision,Oja Special Goods Train and Wjd-12 Up Goods Train,Srivenkateswarapalem,Andhra Pradesh,South Central,Collision,Collision,-,#N/A,#N/A,1,#N/A,Technical Fault
+1977,February,7,Kathgodam Bareilly Passenger Derailment,104 Down Kathgodam Bareilly Passenger,Haldwani Station,Uttarakhand,North Eastern,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1977,March,25,Waltair Kazipet Passenger Collision,Up BPQD Goods Train and No.76 Up Waltair Kazipet Passenger,Kesamudram Station,Telangana,South Central,Collision,Collision,-,#N/A,#N/A,4,#N/A,Technical Fault
+1977,April,20,Sealdah-Lalgola Passenger Derailment,367 Up Sealdah-Lalgola Passenger Train,Madanpur Station Yard,West Bengal,Eastern,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1977,May,27,Madras Central Mail Collision,20 Up Trivandrum Central Madras Central Mail and Two Coupled Light Engines,Tiruvalam Station Yard,Tamil Nadu,Southern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1977,May,30,Bridge Collapse,13 Up Tezpur Express,"Beki River, Near Guwahati",Assam,North East Frontier,Bridge Collapse,Structure Collapse,-,45,100,5,#N/A,Human Error
+1977,August,4,Passenger Trains Derailment,Two Dsu Passenger Trains,Modinagar Station,Uttar Pradesh,Northern,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1977,October,10,Howrah-Amritsar Deluxe Express Collision,103 Up Howrah-Amritsar Deluxe Express and CPC Special Goods Train,Naini Station,Uttar Pradesh,Northern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1977,October,17,Madras Rameswaram Passenger Derailment,107 Down Madras Rameswaram Passenger,Between Paramakkudi and Pandikanmoi Stations,Tamil Nadu,Southern,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1977,November,9,Bhusaval Nagpur Passenger Collision,385 Bhusaval Nagpur Passenger and Cargo Train,Akola Station,Maharashtra,Central,Collision,Collision,-,#N/A,#N/A,1,#N/A,Technical Fault
+1977,November,23,Train Derailment,,Near Rewari,Haryana,Northern,Derailment,Derailment,Sabotage,20,21,4,#N/A,Weather Conditions
+1978,February,9,Madras Howrah Janata Express Collision,38 Down Madras Howrah Janata Express and Jbd-II Down Goods Train,Vedayapalem Station,Andhra Pradesh,South Central,Collision,Collision,-,#N/A,#N/A,3,#N/A,Technical Fault
+1978,April,18,Bombay Ahmedabad Janta Express Collision,7 Down Bombay Ahmedabad Janta Express and 537 Down Churchgate Virar Suburban Train,Bassain Road Station,Maharashtra,Western,Collision,Collision,30,60,#N/A,5,#N/A,Technical Fault
+1978,August,26,Grand Trunk Express Collision,Madras New Delhi Grand Trunk Express,Between Tondalagopavaram and Errupalem Stations,Andhra Pradesh,South Central,Collision,Collision,-,#N/A,#N/A,3,#N/A,Technical Fault
+1978,September,18,Ahmedabad Bombay Passenger Train Accident,40 Up Ahmedabad Bombay Passenger Train,Valsad Station,Gujarat,Western,Collision,Collision,-,#N/A,#N/A,3,#N/A,Technical Fault
+1978,October,11,Miraj Pune Passenger Collision,316 Up Miraj Pune Passenger and M-32 LNN Down Diesel Goods Train,Between Bhavani Nagar and Takari Stations,Maharashtra,South Central,Collision,Collision,-,#N/A,#N/A,6,#N/A,Technical Fault
+1978,November,4,Howrah Kalka Mail Derailment,1 Up Howrah Kalka Mail,Between Baruipara and Kamarkundu,West Bengal,Eastern,Derailment,Derailment,-,#N/A,#N/A,8,#N/A,Weather Conditions
+1978,November,11,Miraj Pune Passenger Collision (Repeat),316 Up Miraj Pune Passenger and M-32 LNN Down Diesel Goods Train,Between Bhavani Nagar and Takari Stations,Maharashtra,South Central,Collision,Collision,-,#N/A,#N/A,6,#N/A,Technical Fault
+1978,December,23,Avadh-Trihut Mail Collision,1 Dn Avadh-Trihut Mail and 26 Dn Guwahati Dhubri Passenger,Near Sarupeta Station,Assam,North East Frontier,Collision,Collision,-,18,25,4,#N/A,Technical Fault
+1979,May,12,Pathankot-Nagrota Passenger Derailment,3 Pn Up Pathankot-Nagrota Passenger Train,Between Talara and Jawanwala Shah Stations,Punjab,Northern,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1979,May,18,Howrah-Kharagpur Local Collision,K. 121 Up Howrah-Kharagpur Local and 3 Up Howrah-Madras Mail,Between Bauria and Chengail Stations,West Bengal,South Eastern,Collision,Collision,-,#N/A,#N/A,8,#N/A,Technical Fault
+1979,October,26,Electric Multiple Unit Trains Collision,Electric Multiple Unit Trains No. E-65 and E-67,Madras Egmore Station,Tamil Nadu,Southern,Collision,Collision,-,#N/A,#N/A,6,#N/A,Technical Fault
+1979,November,14,Matunga Train Collision,Two Trains,Near Matunga Station,Maharashtra,Central,Collision,Collision,-,5,50,2,#N/A,Technical Fault
+1979,November,22,Saurashtra Mail Derailment,6 Up Saurashtra Mail and 24 Down Somnath Mail,Sabarmati Station,Gujarat,Western,Derailment & Collision,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1979,December,3,Mahalaxmi Express Derailment,204 Down Mahalaxmi Express,Near Lalhond Halt Station,Karnataka,South Central,Derailment,Derailment,-,#N/A,#N/A,3,#N/A,Weather Conditions
+1979,December,8,Suburban Train Collision,T-181 Down Bombay V.T. Thane Suburban Train and T1-31 Down Suburban Train,Between Ghatkopar and Vikhroli Stations,Maharashtra,Central,Collision,Collision,-,#N/A,#N/A,6,#N/A,Technical Fault
+1979,December,23,Avadh-Trihut Mail Collision,1 Dn Avadh-Trihut Mail and 26 Dn Guwahati Dhubri Passenger,Near Sarupeta Station,Assam,North East Frontier,Collision,Collision,18,25,#N/A,7,#N/A,Technical Fault
+1981,February,12,Vaniyambadi Collision,"No.20 Madras Mail, Trivandrum Mail, Yercaud Express",Vaniyambadi,Tamil Nadu,Southern,Collision,Collision,Collision,#N/A,#N/A,6,#N/A,Technical Fault
+1981,June,6,Bihar Train Derailment,Unknown,Bagmati River Bridge,Bihar,East Central,Derailment,Derailment,Unknown,800,#N/A,7,#N/A,Weather Conditions
+1981,July,16,Narmada Express Collision,Narmada Express,Between Khodri and Bhanwar Tonk,Madhya Pradesh,West Central,Collision,Collision,Rear Collision,50,49,7,#N/A,Technical Fault
+1981,July,19,Gujarat Derailment,Unknown,Gujarat,Gujarat,Western,Derailment,Derailment,Sabotage,30,70,7,#N/A,Weather Conditions
+1982,January,28,Agra Collision,Unknown,Agra,Uttar Pradesh,North Central,Collision,Collision,Fog,50,50,7,#N/A,Technical Fault
+1982,March,20,Andhra Pradesh Bus Collision,Mangalore–New Delhi,Warangal Station,Andhra Pradesh,South Central,Level crossing,Level crossing,59,25,#N/A,1,#N/A,Human Error
+1984,February,10,Bahadurgarh Station Collision,"2 DR (Rohtak–Delhi), 38 Down Punjab Mail",Bahadurgarh,Haryana,Northern,Collision,Collision,Rear collision,43,58,7,#N/A,Technical Fault
+1984,September,15,Jabalpur-Gondia Mishap,Unknown,"Charegaon, Balaghat",Madhya Pradesh,West Central,Derailed in river,Derailment,Bridge Failure,157,#N/A,5,#N/A,Weather Conditions
+1984,August,15,Coromandel Express Derailment,Coromandel Express,"Chhattrapur, near Berhampur",Odisha,East Coast,Derailment,Derailment,Unknown,16,#N/A,4,#N/A,Weather Conditions
+1984,November,22,Mumbai Local Rail Disaster,Unknown,Byculla Station,Maharashtra,Central,Collision,Collision,Unknown,#N/A,#N/A,6,#N/A,Technical Fault
+1985,February,23,Rajnandgaon Train Fire,Express Train,Rajnandgaon,Madhya Pradesh,South East Central,Fire,Fire,Unknown,55,#N/A,5,#N/A,Human Error
+1985,June,13,Agra Rail Disaster,Express and Goods Train,Agra,Uttar Pradesh,North Central,Collision,Collision,Unknown,38,#N/A,7,#N/A,Technical Fault
+1985,November,22,Dhupguri Train Collision,Tinsukia Mail,Dhupguri,West Bengal,North East Frontier,Collision,Collision,Unknown,1,300,7,#N/A,Technical Fault
+1986,March,10,Khagaria Rail Disaster,Unknown,Khagaria,Bihar,East Central,Collision,Collision,Unknown,58,#N/A,4,#N/A,Technical Fault
+1987,July,8,Machieral Rail Disaster,Delhi-Dakshin Express,Macherial,Andhra Pradesh,South Central,Derailment,Derailment,Unknown,53,#N/A,3,#N/A,Weather Conditions
+1987,March,15,Rockfort Express Bombing,Rockfort Express,Ariyalur,Tamil Nadu,Southern,Explosion (Bomb),Bombing,Bombing,25,132,7,#N/A,Sabotage
+1988,April,18,Lalitpur Rail Disaster,Karnataka Express,Lalitpur,Uttar Pradesh,North Central,Derailment,Derailment,Unknown,75,#N/A,7,#N/A,Weather Conditions
+1988,July,8,Peruman Railway Accident,Island Express,"Peruman Bridge, Ashtamudi Lake",Kerala,Southern,Derailment,Derailment,Bridge Failure,105,200,7,#N/A,Weather Conditions
+1988,December,16,Coromandel Express Derailment,Coromandel Express,Vijayawada,Andhra Pradesh,South Central,Derailment,Derailment,Unknown,8,64,5,#N/A,Weather Conditions
+1989,November,1,Udyan Abha Toofan Express Derailment,Udyan Abha Toofan Express,Sakaldiha,Uttar Pradesh,East Central,Derailment,Derailment,Unknown,48,#N/A,7,#N/A,Weather Conditions
+1990,April,16,Patna Rail Disaster,Shuttle Train,Near Patna,Bihar,East Central,Fire,Fire,Fire,70,#N/A,5,#N/A,Human Error
+1990,June,6,Gollaguda Train Fire,Unknown,Gollaguda,Andhra Pradesh,South Central,Fire,Fire,Fire,36,#N/A,5,#N/A,Human Error
+1990,June,25,Mangra Train Collision,"Freight Train, Passenger Train",Mangra,Bihar,East Central,Collision,Collision,Unknown,60,#N/A,4,#N/A,Technical Fault
+1990,October,10,Cherlapalli Train Fire,Unknown,Near Cherlapalli,Andhra Pradesh,South Central,Fire,Fire,Fire,40,#N/A,5,#N/A,Human Error
+1991,March,6,Karnataka Express Derailment,Karnataka Express,Near Makalidurga Ghats,Karnataka,South Western,Derailment,Derailment,Rain,30,#N/A,4,#N/A,Weather Conditions
+1991,December,12,Kangra Valley Train Crash,Kangra Valley Train,Near Jawali,Himachal Pradesh,Northern,Collision,Collision,Unknown,27,#N/A,7,#N/A,Technical Fault
+1992,September,5,Raigarh Train Collision,Unknown,Raigarh,Madhya Pradesh,South East Central,Collision,Collision,Unknown,41,#N/A,5,#N/A,Technical Fault
+1993,January,16,Howrah Rajdhani Express Collision,"Howrah Rajdhani Express, Goods Train",Between Roorah and Ambiyapur,Uttar Pradesh,North Central,Collision,Collision,Unknown,#N/A,#N/A,8,#N/A,Technical Fault
+1993,July,16,Darbhanga Train Accident,Unknown,Darbhanga District,Bihar,East Central,Derailment,Derailment,Unknown,60,#N/A,5,#N/A,Weather Conditions
+1993,September,21,Kota-Bina Train Collision,"Kota–Bina Passenger Train, Freight Train",Near Chhabra,Rajasthan,West Central,Collision,Collision,Unknown,71,#N/A,7,#N/A,Technical Fault
+1994,May,3,Narayanadri Express Collision,Narayanadri Express,Nalgonda District,Andhra Pradesh,South Central,Collision (with tractor),Collision,Level crossing,35,#N/A,3,#N/A,Technical Fault
+1994,October,26,Mumbai–Howrah Mail Fire,8001 DN Mumbai–Howrah Mail,Unknown,Unknown,South Eastern,Fire,Fire,Fire,27,#N/A,7,#N/A,Human Error
+1995,May,14,Salem Train Collision,"Madras–Kanyakumari Express, Freight Train",Near Salem,Tamil Nadu,Southern,Collision,Collision,Unknown,52,#N/A,4,#N/A,Technical Fault
+1995,June,1,Jammu Tawi Express Collision,"Jammu Tawi Express, Coal-laden Goods Train",Unknown,Unknown,Northern,Collision,Collision,Unknown,45,335,7,#N/A,Technical Fault
+1995,June,1,Hirakud Express Derailment,Hirakud Express,Barpali,Odisha,East Coast,Derailment,Derailment,Unknown,15,#N/A,4,#N/A,Weather Conditions
+1995,August,20,Firozabad Rail Disaster,"Purushottam Express, Kalindi Express",Near Firozabad,Uttar Pradesh,North Central,Collision,Collision,Stationary train,400,#N/A,7,#N/A,Technical Fault
+1996,April,18,Gorakhpur-Gonda Collision,"Gorakhpur–Gonda Passenger Train, Freight Train",Domingarh Station,Uttar Pradesh,North Eastern,Collision,Collision,Unknown,60,#N/A,7,#N/A,Technical Fault
+1996,May,14,Ernakulam-Kayamkulam Collision,Ernakulam–Kayamkulam Train,Near Alappuzha,Kerala,Southern,Collision (with bus),Collision,Level crossing,35,#N/A,5,#N/A,Technical Fault
+1996,May,25,Allahabad Passenger Collision,Allahabad-bound Passenger Train,Near Varanasi,Uttar Pradesh,North Central,Collision (with tractor-trolley),Collision,Level crossing,25,#N/A,7,#N/A,Technical Fault
+1996,December,30,Brahmaputra Mail Bombing,Brahmaputra Mail,Between Kokrajhar and Fakiragram,Assam,North East Frontier,Bombing,Bombing,Bomb,33,#N/A,7,#N/A,Sabotage
+1997,July,8,Lehra Khanna Train Bombing,Passenger Train,"Lehra Khanna Station, Punjab",Punjab,Northern,Bombing,Bombing,Bomb,33,#N/A,7,#N/A,Sabotage
+1997,July,28,Karnataka-Himsagar Collision,"Karnataka Express, Himsagar Express",Outskirts of Delhi,Delhi,Northern,Collision,Collision,Unknown,12,#N/A,4,#N/A,Technical Fault
+1997,August,15,Coromandel Express Collision,"42 Down Coromandel Express, 41 Up Coromandel Express",Near Visakhapatnam,Andhra Pradesh,East Coast,Collision,Collision,Unknown,75,#N/A,2,#N/A,Technical Fault
+1997,September,14,Ahmedabad–Howrah Derailment,Ahmedabad–Howrah Express,Bilaspur District,Madhya Pradesh,South East Central,Derailment,Derailment,Unknown,81,#N/A,5,#N/A,Weather Conditions
+1997,October,5,Coromandel Express Derailment,42 Down Coromandel Express,Rajahmundry,Andhra Pradesh,East Coast,Derailment,Derailment,Unknown,#N/A,#N/A,1,#N/A,Weather Conditions
+1997,December,6,Serial Bomb Blasts,"Cheran Express, Pandian Express, Chennai-Alleppey Express","Erode, Tiruchirappalli, Thrissur",Kerala,Southern,Bombing,Bombing,Bomb,10,70,5,#N/A,Sabotage
+1998,January,6,Bareilly–Varanasi Collision,"Bareilly–Varanasi Passenger Train, Kashi Vishwanath Express",Near Hardoi,Uttar Pradesh,Northern,Collision,Collision,Unknown,70,#N/A,7,#N/A,Technical Fault
+1998,April,4,Fatuha Train Crash,Howrah–Danapur Express,Near Fatuha Station,Bihar,East Central,Derailment,Derailment,Unknown,11,50,5,#N/A,Weather Conditions
+1998,April,24,Manmad-Kachiguda Collision,Manmad–Kachiguda Express,Parli Vaijanath Station,Maharashtra,South Central,Collision,Collision,Unknown,24,32,7,#N/A,Technical Fault
+1998,August,13,Chennai-Madurai Collision,Chennai–Madurai Express,Outskirts of Karur Town,Tamil Nadu,Southern,Collision (with bus),Collision,Level crossing,19,27,7,#N/A,Technical Fault
+1998,September,24,Bottalaapalem Train Collision,Unknown,Near Bottalaapalem Village,Andhra Pradesh,South Central,Collision (with bus),Collision,Level crossing,20,33,2,#N/A,Technical Fault
+1998,November,26,Khanna Rail Disaster,"Jammu Tawi–Sealdah Express, Frontier Golden Temple Mail",Khanna,Punjab,Northern,Collision,Collision,Derailment,227,#N/A,7,#N/A,Technical Fault
+1999,July,16,Grand Trunk Express Collision,2616 UP Chennai–New Delhi Grand Trunk Express,Agra-Mathura Section,Uttar Pradesh,North Central,Collision,Collision,Derailment,17,200,7,#N/A,Technical Fault
+1999,August,2,Gaisal Train Disaster,"Brahmaputra Mail, Avadh Assam Express",Gaisal Station,Assam,North East Frontier,Collision,Collision,Stationary train,298,349,7,#N/A,Technical Fault
+1999,August,15,Coromandel Express Derailment,Coromandel Express,Dusi,Andhra Pradesh,East Coast,Derailment,Derailment,Unknown,50,500,5,#N/A,Weather Conditions
+1999,December,6,Coromandel Express Derailment,Coromandel Express,Jenapur,Odisha,East Coast,Derailment,Derailment,Super Cyclone,20,100,7,#N/A,Weather Conditions
+2000,December,2,Howrah Amritsar Mail Collision,Howrah Amritsar Mail,Ambala Ludhiana,Punjab,Northern,Collision,Collision,Derailed coaches,45,150,5,#N/A,Technical Fault
+2001,June,22,Kadalundi Train Derailment,Mangalore–Chennai Mail,Kadalundi River Bridge,Kerala,Southern,Derailment,Derailment,Bridge collapse,52,300,7,#N/A,Weather Conditions
+2002,February,27,Godhra Train Attack,Sabarmati Express,Godhra,Gujarat,Western,Attack,Attack,Mob set fire,58,43,7,#N/A,Sabotage
+2002,February,28,Ala Hazrat Express Attack,Ahmedabad-Delhi Ala Hazrat Express,Ahmedabad-Delhi,Gujarat,Western,Attack,Attack,Mob retaliation,0,200,7,#N/A,Sabotage
+2002,May,13,Jaunpur Train Crash,Shramjeevi Express,Jaunpur,Uttar Pradesh,North Eastern,Derailment,Derailment,Sabotage,12,80,7,#N/A,Weather Conditions
+2002,June,4,Kasganj Level Crossing Disaster,Kanpur–Kasganj Express,Kasganj,Uttar Pradesh,North Eastern,Collision,Collision,Bus at level crossing,30,29,7,#N/A,Technical Fault
+2002,September,9,Rafiganj Train Wreck,Howrah Rajdhani Express,Gaya-Dehri-on-Sone Bridge,Bihar,East Central,Derailment,Derailment,Sabotage,140,#N/A,4,#N/A,Weather Conditions
+2003,May,15,Golden Temple Mail Fire,Golden Temple Mail,Ludhiana-Ladhowal,Punjab,Northern,Fire,Fire,Unknown,36,15,7,#N/A,Human Error
+2003,June,22,Karwar–Mumbai Central Derailment,Karwar–Mumbai Central Holiday Special,Unknown,Maharashtra,Central,Derailment,Derailment,Unknown,52,26,7,#N/A,Weather Conditions
+2003,July,2,Golconda Express Derailment,Golconda Express,Warangal Station,Telangana,South Central,Derailment,Derailment,Unknown,21,24,5,#N/A,Weather Conditions
+2004,June,16,Matsyagandha Express Derailment,Matsyagandha Express,Unknown,Maharashtra,Konkan,Derailment,Derailment,Boulder on track,14,#N/A,7,#N/A,Weather Conditions
+2004,December,14,Jammu Tawi Express Collision,"Jammu Tawi Express, DMU Jalandhar–Amritsar",Near Mukerian,Punjab,Northern,Collision,Collision,Faulty signal,37,50,7,#N/A,Technical Fault
+2005,July,28,Jaunpur Train Bombing,Shramjeevi Express,Near Jaunpur,Uttar Pradesh,Northern,Bombing,Bombing,Bomb explosion,13,50,7,#N/A,Sabotage
+2005,October,3,Datia Rail Accident,Bundelkhand Express,Near Datia,Madhya Pradesh,North Central,Derailment,Derailment,Overspeeding,16,100,5,#N/A,Weather Conditions
+2005,October,25,Island Express Derailment,Island Express,Near Kamasamudram,Karnataka,South Western,Derailment,Derailment,Unknown,#N/A,#N/A,3,#N/A,Weather Conditions
+2005,October,29,Valigonda Train Wreck,Delta Fast Passenger Train,Valigonda,Andhra Pradesh,South Central,Derailment,Derailment,Flash flood,114,200,4,#N/A,Weather Conditions
+2006,July,11,Mumbai Train Bombings,Multiple commuter trains,Mumbai,Maharashtra,Central,Bombings,Bombing,Terrorist bombing,230,790,5,#N/A,Sabotage
+2006,November,20,West Bengal Train Explosion,Unknown,Near Belacoba,West Bengal,North East Frontier,Explosion,Bombing,Suspected terrorist bomb,7,53,5,#N/A,Sabotage
+2006,December,1,Ulta Pul Bridge Collapse,Howrah–Jamalpur Superfast Express,Bihar,Bihar,East Central,Dismantling accident,Structure Collapse,35,17,#N/A,5,#N/A,Human Error
+2007,February,18,Samjhauta Express Bombing,Delhi–Lahore Samjhauta Express,Haryana-Punjab border,Punjab,Northern,Terrorist attack,Attack,68,#N/A,#N/A,3,#N/A,Sabotage
+2007,August,7,Jodhpur–Howrah Express Derailment,Jodhpur–Howrah Express,"Near Juhi Bridge, Kanpur",Uttar Pradesh,North Central,Derailment,Derailment,Unknown,0,32,4,#N/A,Weather Conditions
+2008,August,1,Gowthami Express Fire,Gowthami Express,Kesamudram Station,Andhra Pradesh,South Central,Fire,Fire,Electrical short circuit,40,#N/A,3,#N/A,Human Error
+2009,February,13,Coromandel Express Fire,Coromandel Express,Jajpur Road Station,Odisha,East Coast,Fire,Fire,Unknown,#N/A,#N/A,6,#N/A,Human Error
+2009,April,29,Vyasarpadi Collision,"Electric Multiple Unit, Empty Oil Tanker",Vyasarpadi Jeeva Station,Tamil Nadu,Southern,Collision,Collision,Hijack,4,#N/A,4,#N/A,Technical Fault
+2009,October,20,Mathura Train Collision,"Goa Express, Mewar Express",Mathura,Uttar Pradesh,North Central,Collision,Collision,Faulty signal,21,#N/A,7,#N/A,Technical Fault
+2010,January,2,Uttar Pradesh Train Accidents,"Lichchavi Express, Magadh Express","Near Etawah, Kanpur",Uttar Pradesh,Northern,Collision,Collision,Dense fog,#N/A,#N/A,1,#N/A,Technical Fault
+2010,January,2,Uttar Pradesh Train Accidents,"Gorakhdham Express, Prayagraj Express","Near Panki, Kanpur",Uttar Pradesh,Northern,Collision,Collision,Dense fog,10,51,5,#N/A,Technical Fault
+2010,January,2,Uttar Pradesh Train Accidents,Saryu Express,Pratapgarh,Uttar Pradesh,Northern,Collision,Collision,Tractor trolley collision,0,0,3,#N/A,Technical Fault
+2010,January,3,Arunachal Pradesh Express Derailment,Arunachal Pradesh Express,Near Helem,Arunachal Pradesh,North East Frontier,Derailment,Derailment,#N/A,0,0,3,#N/A,Weather Conditions
+2010,January,16,Kalindi–Shram Shakti Collision,"Kalindi, Shram Shakti",Near Tundla,Uttar Pradesh,Northern,Collision,Collision,#N/A,#N/A,#N/A,8,#N/A,Technical Fault
+2010,January,17,Harihar–Car Collision,Harihar,"Barha railway crossing, Barabanki",Uttar Pradesh,Northern,Collision,Collision,Car at railway crossing,4,#N/A,4,#N/A,Technical Fault
+2010,January,22,Goods Train Derailment,Goods Train,Near Azamgarh,Uttar Pradesh,Northern,Derailment,Derailment,#N/A,#N/A,#N/A,6,#N/A,Weather Conditions
+2010,May,25,Rajdhani Express Derailment,Rajdhani Express,"Naugachia, Bihar",Bihar,East Central,Derailment,Derailment,Emergency brakes applied,#N/A,11,4,#N/A,Weather Conditions
+2010,May,28,Jnaneswari Express Derailment,Jnaneswari Express,Between Khemashuli and Sardiha stations,West Bengal,Eastern,Derailment and Collision,Derailment,Explosion by Maoists,140,200,7,#N/A,Weather Conditions
+2010,June,4,Coimbatore–Mettupalayam Collision,Coimbatore–Mettupalayam Special Train,"Idigarai, near Coimbatore",Tamil Nadu,Southern,Collision,Collision,Mini-bus at level crossing,5,#N/A,5,#N/A,Technical Fault
+2010,June,18,Amaravati Express Derailment,Amaravati Express,"Near Koppal, Karnataka",Karnataka,South Western,Derailment,Derailment,Collision with road-roller,#N/A,27,3,#N/A,Weather Conditions
+2010,July,19,Sainthia Train Collision,"Uttar Banga Express, Vananchal Express",Sainthia railway station,West Bengal,Eastern,Collision,Collision,#N/A,66,#N/A,7,#N/A,Technical Fault
+2010,August,8,Chennai-Alappuzha Collision,Chennai-Alappuzha Superfast Express,"Near Mararikulam, Ernakulam-Alappuzha line",Kerala,Southern,Collision,Collision,Car at unmanned gate,4,#N/A,4,#N/A,Technical Fault
+2010,August,17,Goryamau Railway Station Crash,#N/A,"Goryamau railway station, Barabanki",Uttar Pradesh,Northern,Crash,Collision,#N/A,4,#N/A,4,#N/A,Technical Fault
+2011,January,1,Akaltakth–Trucks Collision,#N/A,"Babura railway crossing, Jaunpur district",Uttar Pradesh,Northern,Collision,Collision,Truck at railway crossing,#N/A,#N/A,3,#N/A,Technical Fault
+2011,January,3,Goods Train Derailment,Goods Train,"Dadri area, Ghaziabad district",Uttar Pradesh,Northern,Derailment,Derailment,#N/A,#N/A,#N/A,3,#N/A,Weather Conditions
+2011,July,7,Mathura–Chhapra Express Collision,Mathura–Chhapra Express,"Thanagaon, Kanshiram Nagar district",Uttar Pradesh,Northern,Collision,Collision,Bus at unmanned crossing,38,30,7,#N/A,Technical Fault
+2011,July,10,Fatehpur Derailment,Kalka Mail,"Near Fatehpur, Uttar Pradesh",Uttar Pradesh,Northern,Derailment,Derailment,#N/A,70,300,5,#N/A,Weather Conditions
+2011,July,10,Guwahati–Puri Express Derailment,Guwahati–Puri Express,"Nalbari district, Assam",Assam,North East Frontier,Derailment,Derailment,Bomb attack by militants,#N/A,113,5,#N/A,Weather Conditions
+2011,July,23,Freight Train Derailment,Freight Train,"Nalbari district, Assam",Assam,North East Frontier,Derailment,Derailment,#N/A,#N/A,#N/A,1,#N/A,Weather Conditions
+2011,July,31,Guwahati–Bangalore Kaziranga Express Collision,Guwahati–Bangalore Kaziranga Express,"Malda district, West Bengal",West Bengal,Eastern,Collision,Collision,#N/A,3,200,5,#N/A,Technical Fault
+2011,September,13,Chennai Suburban MEMU Collision,"Chennai Suburban MEMU, Arakonam–Katpadi",Between Melpakkam and Chitheri stations,Tamil Nadu,Southern,Collision,Collision,Stationary train,10,60,7,#N/A,Technical Fault
+2011,November,22,Howrah–Dehradun Doon Express Fire,Howrah–Dehradun Doon Express,Giridih district,Jharkhand,East Central,Fire,Fire,Fire in coaches,7,#N/A,5,#N/A,Human Error
+2011,November,23,Qazigund to Baramulla Passenger Derailment,Qazigund to Baramulla Passenger,"Near Sadura, Anantnag district",Jammu and Kashmir,Northern,Derailment,Derailment,#N/A,#N/A,20,3,#N/A,Weather Conditions
+2012,January,11,Brahmaputra Mail Collision,Brahmaputra Mail, Karonpuroto,Jharkhand,East Central,Collision,Collision,Stationary freight train,5,9,4,#N/A,Technical Fault
+2012,February,26,Trivandrum–Kozhikode Jan Shatabdi Express Incident,Trivandrum–Kozhikode Jan Shatabdi Express,Wadakanchery,Kerala,Southern,Collision,Collision,People on tracks,3,1,2,#N/A,Technical Fault
+2012,March,20,Train Collision with Taxi Minivan,#N/A,Northern Uttar Pradesh,Uttar Pradesh,Northern,Collision,Collision,Taxi at railway crossing,15,#N/A,4,#N/A,Technical Fault
+2012,March,26,MEMU Commuter Train Collision,MEMU Commuter Train,"Kannamangala gate, Bangalore",Karnataka,South Western,Collision,Collision,Boulder-carrying truck,#N/A,2,1,#N/A,Technical Fault
+2012,May,22,Cargo Train and Hampi Express Collision,"Cargo Train, Hubli-Bangalore Hampi Express","Penukonda, near Andhra Pradesh",Andhra Pradesh,South Western,Collision,Collision,Collision and fire,25,43,3,#N/A,Technical Fault
+2012,May,31,Howrah–Dehradun Doon Express Derailment,Howrah–Dehradun Doon Express,Near Jaunpur,Uttar Pradesh,Northern,Derailment,Derailment,#N/A,5,15,5,#N/A,Weather Conditions
+2012,July,19,Vidarbha Express Collision,Vidarbha Express,"Near Khardi station, Mumbai–Kasara route",Maharashtra,Central,Collision,Collision,#N/A,1,4,3,#N/A,Technical Fault
+2012,July,30,Tamil Nadu Express Fire,Tamil Nadu Express,"Near Nellore, Andhra Pradesh",Andhra Pradesh,South Central,Fire,Fire,Fire in train,47,25,5,#N/A,Human Error
+2012,November,30,Grand Trunk Express Fire,Grand Trunk Express,Near Gwalior,Madhya Pradesh,North Central,Fire,Fire,Fire in coaches,1,#N/A,2,#N/A,Human Error
+2012,December,19,Indore–Yesvantpur Express Collision,Indore–Yesvantpur Express,"Near Sankhapur, Medak district",Telangana,South Central,Collision,Collision,Truck at railway crossing,#N/A,#N/A,8,#N/A,Technical Fault
+2012,December,26,Ledo–Dibrugarh Town Passenger and Light Engine Collision,Ledo–Dibrugarh Town Passenger,Between Chabua and Panitola,Assam,North East Frontier,Collision,Collision,Head-on collision,#N/A,71,4,#N/A,Technical Fault
+2013,April,10,Muzaffarpur–Yesvantpur Weekly Express Derailment,Muzaffarpur–Yesvantpur Weekly Express,"Near Arakkonam, 40 km from Chennai",Tamil Nadu,Southern,Derailment,Derailment,#N/A,1,1,5,#N/A,Weather Conditions
+2013,August,19,Dhamara Ghat Train Accident,Saharsa–Patna Rajya Rani Superfast Express,"Dhamara station, Bihar",Bihar,East Central,Collision,Collision,Passengers disembarking from another train,35,#N/A,5,#N/A,Technical Fault
+2013,November,2,Alappuzha–Dhanbad Express Collision,Alappuzha–Dhanbad Express,"Gotlam village, Vizianagaram",Andhra Pradesh,South Central,Collision,Collision,Passengers on fire rumor,10,20,3,#N/A,Technical Fault
+2013,November,13,Chapramari Forest Train Accident,#N/A,"Chapramari Wildlife Sanctuary, West Bengal",West Bengal,Eastern,Collision,Collision,Herd of elephants,0,10,3,#N/A,Technical Fault
+2013,November,15,Down Nizamuddin Ernakulam Mangala Lakshadweep Superfast Express Derailment,Down Nizamuddin Ernakulam Mangala Lakshadweep Superfast Express,"Near Ghoti village, Nashik district",Maharashtra,Central,Derailment,Derailment,#N/A,4,12,4,#N/A,Weather Conditions
+2013,December,28,Bangalore City–Hazur Sahib Nanded Express Fire,Bangalore City–Hazur Sahib Nanded Express,"Near Kothacheruvu, Andhra Pradesh",Andhra Pradesh,South Central,Fire,Fire,Fire in train,26,12,3,#N/A,Human Error
+2014,March,20,Local Train Derailment,Local Train,"Titwala, 61 km from Chhatrapati Shivaji Terminus",Maharashtra,Central,Derailment,Derailment,Uncoupling of coaches,1,9,3,#N/A,Weather Conditions
+2014,May,1,Chennai Train Bombing,Guwahati–Bangalore Kaziranga Express,Chennai Central railway station,Tamil Nadu,Southern,Bombing,Bombing,Bomb explosions,1,14,5,#N/A,Sabotage
+2014,May,4,Diva Junction-Sawantvadi Passenger Derailment,Diva Junction-Sawantvadi Passenger,Between Nagothane and Roha stations,Maharashtra,Western,Derailment,Derailment,#N/A,20,100,5,#N/A,Weather Conditions
+2014,May,26,Gorakhdham Express Collision,Gorakhdham Express,"Near Khalilabad station, Uttar Pradesh",Uttar Pradesh,Northern,Collision,Collision,Stationary freight train,25,58,5,#N/A,Technical Fault
+2014,June,25,Dibrugarh Rajdhani Express Derailment,Dibrugarh Rajdhani Express,"Near Chapra town, Bihar",Bihar,East Central,Derailment,Derailment,#N/A,4,8,2,#N/A,Weather Conditions
+2014,July,23,Medak District Bus-Train Collision,Nanded-Secunderabad Passenger,"Masaipet village, Medak district",Telangana,South Central,Collision,Collision,School bus at unmanned level-crossing,20,#N/A,4,#N/A,Technical Fault
+2015,February,13,Anekal Derailment,Bangalore City–Ernakulam Intercity Express,"Near Anekal, Bangalore Urban district",Karnataka,South Western,Derailment,Derailment,#N/A,12,100,5,#N/A,Weather Conditions
+2015,March,20,Uttar Pradesh Train Accident,Dehradun–Varanasi Janta Express,"Rae Bareli, Uttar Pradesh",Uttar Pradesh,Northern,Derailment,Derailment,#N/A,58,150,5,#N/A,Weather Conditions
+2015,May,25,Muri Express Derailment,Muri Express,Uttar Pradesh,Uttar Pradesh,Northern,Derailment,Derailment,#N/A,5,59,5,#N/A,Weather Conditions
+2015,August,4,Harda Twin Train Derailment,"Kamayani Express, Janata Express",Between Kurawan and Bhiringi stations,Madhya Pradesh,West Central,Derailment,Derailment,Flash floods causing track misalignment,31,100,7,#N/A,Weather Conditions
+2015,September,4,Chennai Egmore–Mangalore Central Express Derailment,Chennai Egmore–Mangalore Central Express,"Near Puvanur railway station, Villupuram–Vridhachalam section",Tamil Nadu,Southern,Derailment,Derailment,#N/A,#N/A,39,4,#N/A,Weather Conditions
+2015,September,12,Secunderabad Junction–Lokmanya Tilak Terminus Duronto Express Derailment,Secunderabad Junction–Lokmanya Tilak Terminus Duronto Express,"Martur station, Karnataka",Karnataka,South Central,Derailment,Derailment,#N/A,2,7,4,#N/A,Weather Conditions
+2015,September,12,Kalka–Shimla Shivalik Queen Derailment,Kalka–Shimla Shivalik Queen,Near Taksal,Himachal Pradesh,Northern,Derailment,Derailment,#N/A,2,13,7,#N/A,Weather Conditions
+2016,February,5,Kanyakumari-Bengaluru Island Express Derailment,Kanyakumari-Bengaluru Island Express,Near Patchur station,Tamil Nadu,Southern,Derailment,Derailment,#N/A,#N/A,#N/A,1,#N/A,Weather Conditions
+2016,May,6,Chennai Central–Thiruvananthapuram Central Superfast Express Collision,Chennai Central–Thiruvananthapuram Central Superfast Express,Near Pattabiram,Tamil Nadu,Southern,Collision,Collision,Side collision,#N/A,7,8,#N/A,Technical Fault
+2016,August,27,Thiruvananthapuram-Mangaluru Express Derailment,Thiruvananthapuram-Mangaluru Express,Near Karukutty station,Kerala,Southern,Derailment,Derailment,#N/A,#N/A,#N/A,3,#N/A,Weather Conditions
+2016,September,29,Bhubaneswar-Bhadrak Passenger and Goods Train Collision,Bhubaneswar-Bhadrak Passenger,"Cuttack, Odisha",Odisha,East Coast,Collision,Collision,#N/A,1,22,2,#N/A,Technical Fault
+2016,November,20,Pukhrayan Train Derailment,Indore–Rajendra Nagar Express,"Pukhrayan, approx 60 km from Kanpur",Uttar Pradesh,North Central,Derailment,Derailment,#N/A,152,260,7,#N/A,Weather Conditions
+2016,December,6,Rajendra Nagar-Guwahati Capital Express Derailment,Rajendra Nagar-Guwahati Capital Express,"Samuktala Road station, Alipurduar district",West Bengal,North East Frontier,Derailment,Derailment,#N/A,2,6,5,#N/A,Weather Conditions
+2016,December,28,Kurla-Ambarnath Local Train Derailment,Kurla-Ambarnath Local,Mumbai,Maharashtra,Western,Derailment,Derailment,#N/A,#N/A,#N/A,6,#N/A,Weather Conditions
+2016,December,28,Ajmer-Sealdah Express Derailment,Ajmer-Sealdah Express,Near Rura station,Uttar Pradesh,North Central,Derailment,Derailment,#N/A,#N/A,44,4,#N/A,Weather Conditions
+2017,January,21,Kuneru Train Derailment,Jagdalpur–Bhubaneswar Hirakhand Express,"Near Kuneru, Vizianagaram",Andhra Pradesh,South Central,Derailment,Derailment,#N/A,41,69,5,#N/A,Weather Conditions
+2017,March,7,Bhopal–Ujjain Passenger Train Bombing,Bhopal–Ujjain Passenger,Jabri railway station,Madhya Pradesh,Western,Bombing,Bombing,Bomb explosion,#N/A,10,6,#N/A,Sabotage
+2017,March,30,Mahakaushal Express Derailment,Mahakaushal Express,"Near Kulpahar, Uttar Pradesh",Uttar Pradesh,North Central,Derailment,Derailment,#N/A,#N/A,52,5,#N/A,Weather Conditions
+2017,April,15,Meerut–Lucknow Rajya Rani Express Derailment,Meerut–Lucknow Rajya Rani Express,Near Rampur,Uttar Pradesh,Northern,Derailment,Derailment,#N/A,#N/A,24,4,#N/A,Weather Conditions
+2017,August,19,Puri–Haridwar Kalinga Utkal Express Derailment,Puri–Haridwar Kalinga Utkal Express,"Khatauli, Muzaffarnagar",Uttar Pradesh,Northern,Derailment,Derailment,#N/A,23,97,5,#N/A,Weather Conditions
+2017,August,23,Auraiya Train Derailment,Kaifiyat Express,Between Pata and Achalda stations,Uttar Pradesh,North Central,Derailment,Derailment,#N/A,#N/A,100,4,#N/A,Weather Conditions
+2017,November,24,Vasco Da Gama-Patna Express Derailment,Vasco Da Gama-Patna Express,Chitrakoot,Uttar Pradesh,North Central,Derailment,Derailment,#N/A,3,9,5,#N/A,Weather Conditions
+2017,November,24,Paradeep-Cuttack Goods Train Derailment,Paradeep-Cuttack Goods Train,Between Goraknath-Raghunathpur,Odisha,East Coast,Derailment,Derailment,#N/A,#N/A,#N/A,1,#N/A,Weather Conditions
+2018,April,25,Karaikkudi–Chennai Pallavan Superfast Express Derailment,Karaikkudi–Chennai Pallavan Superfast Express,Tiruchchirappalli Junction,Tamil Nadu,Southern,Derailment,Derailment,Rail fracture,#N/A,#N/A,3,#N/A,Weather Conditions
+2018,May,6,Howrah-Mumbai Mail Fire,Howrah-Mumbai Mail,Between Talni and Dhamangaon,Maharashtra,Central,Fire,Fire,Locomotive defect,1,1,6,#N/A,Human Error
+2018,July,24,St Thomas Mount Station Accident,Chennai Beach-Tirumalpur Local,"St Thomas Mount station, Chennai Beach-Tambaram section",Tamil Nadu,Southern,Collision,Collision,Train diverted to wrong platform,5,4,4,#N/A,Technical Fault
+2018,October,10,New Farakka Express Accident,New Farakka Express,"Raebareli, Uttar Pradesh",Uttar Pradesh,Northern,Derailment,Derailment,#N/A,7,#N/A,2,#N/A,Weather Conditions
+2018,October,19,Amritsar Train Disaster,#N/A,Amritsar,Punjab,Northern,Collision,Collision,Train ran into crowd at Dusshera festival,59,100,5,#N/A,Technical Fault
+2019,February,3,Seemanchal Express Derailment,Seemanchal Express,Near Sahadai Buzurg railway station,Bihar,East Central,Derailment,Derailment,#N/A,#N/A,#N/A,3,#N/A,Weather Conditions
+2019,March,31,Tapti Ganga Express Derailment,Tapti Ganga Express,Near Gautamsthan railway station,Uttar Pradesh,North Central,Derailment,Derailment,#N/A,#N/A,#N/A,1,#N/A,Weather Conditions
+2019,April,20,Poorva Express Derailment,Poorva Express,Outskirts of Kanpur Central near Rooma,Uttar Pradesh,North Central,Derailment,Derailment,#N/A,#N/A,15,4,#N/A,Weather Conditions
+2019,August,29,Telangana Express Fire,Telangana Express,"Asaoti railway station, Haryana",Haryana,Northern,Fire,Fire,#N/A,#N/A,#N/A,3,#N/A,Human Error
+2019,November,11,Lingampalli MMTS and Hundry Express Collision,"Lingampalli MMTS, Hundry Express",Kacheguda station,Telangana,South Central,Collision,Collision,MMTS ran into incoming Hundry Express,1,16,5,#N/A,Technical Fault
+2020,May,8,Aurangabad Railway Accident,#N/A,Between Jalna and Aurangabad districts,Maharashtra,Central,Collision,Collision,Goods train ran over sleeping migrants,16,#N/A,5,#N/A,Technical Fault
+2020,July,22,Hyderabad Railway Employees Accident,#N/A,Between Vikarabad and Chittigadda railway station,Telangana,South Central,Collision,Collision,Double engine train ran over employees,3,#N/A,4,#N/A,Technical Fault
+2021,August,25,Guwahati-Howrah Saraighat COVID Special Train Derailment,Guwahati-Howrah Saraighat COVID Special Train,Chaygaon railway station,Assam,North East Frontier,Derailment,Derailment,#N/A,#N/A,#N/A,3,#N/A,Weather Conditions
+2021,August,25,Southern Railways Employees Accident,#N/A,Near Ambur railway station,Tamil Nadu,Southern,Collision,Collision,"Heavy rain, visibility issues",2,#N/A,2,#N/A,Technical Fault
+2022,January,13,Bikaner–Guwahati Express Derailment,Bikaner–Guwahati Express,"Near New Domohani railway station, Mainaguri, Jalpaiguri",West Bengal,North East Frontier,Derailment,Derailment,#N/A,9,#N/A,5,#N/A,Weather Conditions
+2022,April,3,Pawan Express Derailment,Pawan Express,Near Nashik,Maharashtra,Central,Derailment,Derailment,#N/A,#N/A,2,1,#N/A,Weather Conditions
+2022,March,25,Mumbai–New Delhi Duronto Express Accident,Mumbai–New Delhi Duronto Express,Between Navsari and Maroil Railway Stations,Gujarat,Western,Collision,Collision,"Heavy fog, visibility issues",2,#N/A,4,#N/A,Technical Fault
+2022,November,12,Telangana Railway Employees Accident,#N/A,"Mahabubabad district, Telangana",Telangana,South Central,Collision,Collision,Konark Superfast Express,2,#N/A,4,#N/A,Technical Fault
+2023,January,2,Suryanagri Express Derailment,Suryanagri Express,Near Marwar Junction railway station,Rajasthan,North Western,Derailment,Derailment,#N/A,#N/A,10,6,#N/A,Weather Conditions
+2023,April,3,Elathur Train Fire Incident,Express Train,"Elathur, Kozhikode, Kerala",Kerala,Southern,Fire/Arson,Attack,Passenger set fire to fellow passengers,3,8,2,#N/A,Sabotage
+2023,May,15,Chennai-Bangalore Double Decker Express Derailment,Chennai-Bangalore Double Decker Express,Near Bisanattam station,Tamil Nadu,Southern,Derailment,Derailment,#N/A,#N/A,#N/A,8,#N/A,Weather Conditions
+2023,June,2,Odisha Train Collision,"Coromandel Express, SMVT Bengaluru–Howrah SF Express","Balasore, Odisha",Odisha,East Coast,Collision,Collision,High speed collision with freight train,296,1289,7,#N/A,Technical Fault
+2023,June,8,Nilgiri Mountain Railway Derailment,Nilgiri Mountain Railway,Near Coonoor station,Tamil Nadu,Southern,Derailment,Derailment,#N/A,#N/A,#N/A,6,#N/A,Weather Conditions
+2023,June,9,Vijayawada-Chennai Central Jan Shatabdi Express Derailment,Vijayawada-Chennai Central Jan Shatabdi Express,Near Basin Bridge station,Tamil Nadu,Southern,Derailment,Derailment,#N/A,#N/A,#N/A,8,#N/A,Weather Conditions
+2023,June,11,Chennai Suburban Local Train Derailment,Chennai Suburban Local Train,Near Basin Bridge station,Tamil Nadu,Southern,Derailment,Derailment,#N/A,#N/A,#N/A,8,#N/A,Weather Conditions
+2023,June,22,Lokmanya Tilak Express Fire Incident,Lokmanya Tilak Express,Near Vyasarpadi station,Tamil Nadu,Southern,Fire,Fire,Friction in high-voltage power line,#N/A,#N/A,8,#N/A,Human Error
+2023,June,25,Ondagram Goods Train Collision,Downward Goods Train,Ondagram railway station,West Bengal,South Eastern,Collision,Collision,Signal breaking,#N/A,#N/A,3,#N/A,Technical Fault
+2023,July,7,Howrah-bound Falaknuma Express Fire Incident,Howrah-bound Falaknuma Express,Between Bommaipally and Pagidipalli,Telangana,South Central,Fire,Fire,#N/A,#N/A,#N/A,8,#N/A,Human Error
+2023,August,23,Kurung River Bridge Collapse,#N/A,"Near Sairang, Mizoram",Mizoram,North East Frontier,Collapse,Structure Collapse,Bridge collapse,26,#N/A,5,#N/A,Human Error
+2023,August,26,Lucknow-Rameshwaram Bharat Gaurav Train Fire,Lucknow-Rameshwaram Bharat Gaurav Train,Near Madurai Junction,Tamil Nadu,Southern,Fire,Fire,Passenger smuggling gas cylinder,9,20,5,#N/A,Human Error
+2023,September,23,Tiruchirappalli–Shri Ganganagar Humsafar SF Express Fire,Tiruchirappalli–Shri Ganganagar Humsafar SF Express,Near Valsad Railway Station,Gujarat,Western,Fire,Fire,#N/A,#N/A,#N/A,1,#N/A,Human Error
+2023,September,26,EMU Train Derailment,EMU Train,"Shakur Basti, Mathura",Uttar Pradesh,North Central,Derailment,Derailment,#N/A,#N/A,#N/A,3,#N/A,Weather Conditions
+2023,October,11,Anand Vihar Terminal-Kamakhya Junction North East Express Derailment,Anand Vihar Terminal-Kamakhya Junction North East Express,Near Raghunathpur Railway Station,Bihar,East Central,Derailment,Derailment,#N/A,4,70,4,#N/A,Weather Conditions
+2023,October,29,Visakhapatnam-Rayagada and Visakhapatnam-Palasa Passenger Train Collision,"Visakhapatnam-Rayagada Passenger Train, Visakhapatnam-Palasa Passenger Train",Near Kottavalasa Junction railway station,Andhra Pradesh,East Coast,Collision,Collision,Collision between trains,14,50,2,#N/A,Technical Fault
+2023,October,31,Suheldev Superfast Express Derailment,Suheldev Superfast Express,Outer region of Prayagraj,Uttar Pradesh,North Central,Derailment,Derailment,#N/A,#N/A,#N/A,3,#N/A,Weather Conditions
+2023,November,15,Delhi-Darbhanga Superfast Express Fire,Delhi-Darbhanga Superfast Express,Near Etawah,Uttar Pradesh,North Central,Fire,Fire,#N/A,#N/A,#N/A,1,#N/A,Human Error
+2023,December,13,Barddhaman Junction Overhead Water Tank Collapse,#N/A,"Barddhaman Junction, West Bengal",West Bengal,Eastern,Collapse,Structure Collapse,Tank collapse,3,34,4,#N/A,Human Error
+2024,February,28,Kalajhariya Train Incident,#N/A,"Near Kalajhariya, Jamtara-Karmatand",Jharkhand,Eastern,Collision/Accident,Collision,Train collision,2,#N/A,4,#N/A,Technical Fault
+2024,June,15,Ernakulam-Hazrat Nizamuddin Millennium Express Mishap,Ernakulam-Hazrat Nizamuddin Millennium Express,"Near Ramagundam, Telangana",Telangana,South Central,Accident,Structure Collapse,Improper chaining of upper berth,1,1,4,#N/A,Human Error
+2024,June,17,West Bengal Train Collision,Kanchanjunga Express,"Near Rangapani, Darjeeling",West Bengal,Eastern,Collision,Collision,Overspeeding freight train hit passenger train,10,60,5,#N/A,Technical Fault
+2024,July,18,Uttar Pradesh Train Derailment,Dibrugarh–Chandigarh Express,"Near Jhilahi, Gonda district",Uttar Pradesh,Northern,Derailment,Derailment,#N/A,4,32,5,#N/A,Weather Conditions
+2024,July,30,Howrah–Mumbai CSMT Mail Train Derailment,Howrah–Mumbai CSMT Mail,"Near Jamshedpur, Jharkhand",Jharkhand,South Eastern,Derailment,Derailment,#N/A,2,20,2,#N/A,Weather Conditions
+2024,August,17,Sabarmati Express Derailment,Sabarmati Express,"Near Kanpur, Uttar Pradesh",Uttar Pradesh,North Central,Derailment,Derailment,Engine hit a boulder,#N/A,#N/A,1,#N/A,Weather Conditions
