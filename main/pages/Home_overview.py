@@ -13,7 +13,7 @@ def show():
     # Instructions to the user
     st.write(" Download the dataset by clicking the button below. ")
     # Provide the absolute path to the file
-    csv_path = r"Assests/train_Accident_1900_2024_cleaned.csv"
+    csv_path = r"https://github.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/blob/main/main/Assests/train_Accident_1900_2024_cleaned.csv"
 
     try:
         # Attempt to open 
