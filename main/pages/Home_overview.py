@@ -1,4 +1,5 @@
 import streamlit as st
+import requests
 
 
 def show():
@@ -10,26 +11,25 @@ def show():
     """,
     unsafe_allow_html=True
 )
-    # Instructions to the user
-    st.write(" Download the dataset by clicking the button below. ")
-    # Provide the absolute path to the file
-    csv_path = r"https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/main/Assests/train_Accident_1900_2024_cleaned.csv"
+    # Use the correct raw GitHub URL
+csv_url = "https://raw.githubusercontent.com/yashhackz360/Railway_Accident_Analytics_A_data_driven_AI_Approach/main/main/Assets/train_Accident_1900_2024_cleaned.csv"
 
-    try:
-        # Attempt to open 
-        with open(csv_path, "rb") as csv:
-            st.download_button(
-                label="Download the Dataset",
-                data=csv,
-                file_name="train_Accident_1900_2024_cleaned.csv",  # Corrected file name
-            )
-    except FileNotFoundError:
-        # Display an error if the file is not found
-        st.error(f"The file was not found at the specified location: {csv_path}")
-    except Exception as e:
-        # Handle any other errors
-        st.error(f"An unexpected error occurred: {e}")
+try:
+    # Request the CSV from GitHub
+    response = requests.get(csv_url)
+    response.raise_for_status()  # Raise error for bad response (e.g., 404)
 
+    # Show the download button
+    st.download_button(
+        label="Download the Dataset",
+        data=response.content,
+        file_name="train_Accident_1900_2024_cleaned.csv",
+        mime="text/csv"
+    )
+except requests.exceptions.HTTPError:
+    st.error("Failed to download the dataset. The URL may be incorrect.")
+except Exception as e:
+    st.error(f"An unexpected error occurred: {e}")
     st.markdown("""
     <style>
         .title-section {
