@@ -1,5 +1,5 @@
 import streamlit as st
-import requests
+import os
 
 
 def show():
@@ -11,25 +11,17 @@ def show():
     """,
     unsafe_allow_html=True
 )
-    # Use the correct raw GitHub URL
-csv_url = "https://raw.githubusercontent.com/yashhackz360/Railway_Accident_Analytics_A_data_driven_AI_Approach/main/main/Assets/train_Accident_1900_2024_cleaned.csv"
 
+# Correct relative path from 'pages/' to '../Assests/'
+csv_path = os.path.join(os.path.dirname(__file__), '..', 'Assests', 'train_Accident_1900_2024_cleaned.csv')
+
+# Load dataset
 try:
-    # Request the CSV from GitHub
-    response = requests.get(csv_url)
-    response.raise_for_status()  # Raise error for bad response (e.g., 404)
-
-    # Show the download button
-    st.download_button(
-        label="Download the Dataset",
-        data=response.content,
-        file_name="train_Accident_1900_2024_cleaned.csv",
-        mime="text/csv"
-    )
-except requests.exceptions.HTTPError:
-    st.error("Failed to download the dataset. The URL may be incorrect.")
+    df = pd.read_csv(csv_path)
+    st.success("Dataset loaded successfully.")
 except Exception as e:
-    st.error(f"An unexpected error occurred: {e}")
+    st.error(f"Failed to load dataset: {e}")
+   
     st.markdown("""
     <style>
         .title-section {
