@@ -6,7 +6,8 @@ import os
 st.set_page_config(page_title="Railway Accident Analytics - Overview", layout="wide")
 
 # Load dataset from 'Assests' directory
-file_path = os.path.join("Assests", "train_Accident_1900_2024_cleaned.csv")
+dataset_path = os.path.join("..", "main", "Assests", "train_Accident_1900_2024_cleaned.csv")
+
 
 # Header
 st.markdown("""
@@ -17,7 +18,7 @@ st.markdown("""
 
 # Try to load dataset
 try:
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(dataset_path)
 
     # ✅ Success message
     st.success("✅ Dataset loaded successfully.")
