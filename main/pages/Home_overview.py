@@ -2,32 +2,32 @@ import streamlit as st
 import pandas as pd
 
 def show():
-    """
-    This function encapsulates the entire content of the Home/Overview page.
-    """
-    # --- Page Configuration ---
-    st.set_page_config(page_title="Railway Accident Analytics - Overview", layout="wide")
+   
 
     # --- Dataset Loading from GitHub ---
 
-    # Dictionary of datasets available in the GitHub repository
+    # CORRECTED: The folder name in the URL is "Assets", not "Assests".
+    # This dictionary holds the direct raw links to the datasets on GitHub.
     DATASETS = {
-        "Main Cleaned Data (1900-2024)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/train_Accident_1900_2024_cleaned.csv",
-        "Analysis Dataset": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/train_accident_analysis%20dataset.csv",
-        "Preprocessed Data": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/preprocessed_accident_data.csv",
-        "Enhanced Data (for AI)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/enhanced_accident_data.csv"
+        "Main Cleaned Data (1900-2024)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/train_Accident_1900_2024_cleaned.csv",
+        "Analysis Dataset": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/train_accident_analysis%20dataset.csv",
+        "Preprocessed Data": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/preprocessed_accident_data.csv",
+        "Enhanced Data (for AI)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/enhanced_accident_data.csv"
     }
 
     # --- Caching the data loading function ---
+    # @st.cache_data tells Streamlit to keep the loaded data in memory,
+    # so it doesn't have to re-download the file every time the user interacts with the app.
     @st.cache_data
     def load_data(url):
         """Loads data from a URL, handling both CSV and Excel files."""
         try:
-            # Added a check for spaces in URL which need to be encoded
+            # Encode spaces in the URL to ensure it's valid
             url = url.replace(" ", "%20")
             if url.endswith('.csv'):
                 return pd.read_csv(url)
             elif url.endswith('.xlsx'):
+                # This requires the 'openpyxl' library to be in requirements.txt
                 return pd.read_excel(url)
         except Exception as e:
             st.error(f"Error loading data from {url}: {e}")
@@ -109,6 +109,9 @@ def show():
     """)
     st.info("ℹ️ **Dataset Used:** `enhanced_accident_data` powers the chatbot, providing it with a rich, context-aware knowledge base for answering user queries accurately.")
 
-# This part is important for testing this file directly
+# This block allows you to run this page's script directly for testing
 if __name__ == "__main__":
+    # st.set_page_config should be the first Streamlit command run.
+    # It's best placed in your main entry-point script (e.g., main.py)
+    st.set_page_config(page_title="Railway Accident Analytics - Overview", layout="wide")
     show()
