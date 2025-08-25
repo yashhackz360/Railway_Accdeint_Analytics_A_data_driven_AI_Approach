@@ -1,13 +1,38 @@
 import streamlit as st
 import pandas as pd
-import os
 
-# Set page title
+# --- Page Configuration ---
 st.set_page_config(page_title="Railway Accident Analytics - Overview", layout="wide")
 
-# Load dataset from 'Assests' directory
-dataset_path = os.path.join("..", "main", "Assests", "train_Accident_1900_2024_cleaned.csv")
+# --- Dataset Loading from GitHub ---
 
+# Dictionary of datasets available in the GitHub repository
+# I've updated the keys to match your new file names for clarity
+DATASETS = {
+    "Main Cleaned Data (1900-2024)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/train_Accident_1900_2024_cleaned.csv",
+    "Analysis Dataset": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/train_accident_analysis%20dataset.csv", # Note: I'm assuming this is a CSV. Update if it's another format.
+    "Preprocessed Data": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/preprocessed_accident_data.csv", # Assuming CSV
+    "Enhanced Data (for AI)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assests/enhanced_accident_data.csv" # Assuming CSV
+}
+
+
+# --- Caching the data loading function ---
+@st.cache_data
+def load_data(url):
+    """Loads data from a URL, handling both CSV and Excel files."""
+    try:
+        # Added a check for spaces in URL which need to be encoded
+        url = url.replace(" ", "%20")
+        if url.endswith('.csv'):
+            return pd.read_csv(url)
+        elif url.endswith('.xlsx'):
+            return pd.read_excel(url)
+    except Exception as e:
+        st.error(f"Error loading data from {url}: {e}")
+        st.warning("Please ensure the file exists at the specified URL in your GitHub repository and the link is a 'raw' link.")
+        return None
+
+# --- App Layout ---
 
 # Header
 st.markdown("""
@@ -16,52 +41,36 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Try to load dataset
-try:
-    df = pd.read_csv(dataset_path)
+# --- Dataset Selection and Display ---
+st.subheader("📄 Explore the Project Datasets")
+selected_dataset_name = st.selectbox(
+    "Choose a dataset to preview:",
+    options=list(DATASETS.keys())
+)
 
-    # ✅ Success message
-    st.success("✅ Dataset loaded successfully.")
+selected_url = DATASETS[selected_dataset_name]
+df = load_data(selected_url)
 
-    # 📊 Dataset overview
-    st.subheader("📄 Dataset Overview")
-    st.write(f"**Total Rows:** {df.shape[0]}")
-    st.write(f"**Total Columns:** {df.shape[1]}")
-    st.dataframe(df.head())  # Show top 5 rows
-
-    # 📥 Download button
+if df is not None:
+    st.success(f"✅ Previewing **{selected_dataset_name}**.")
+    st.dataframe(df.head())
     csv = df.to_csv(index=False).encode('utf-8')
     st.download_button(
-        label="📥 Download CSV",
+        label=f"📥 Download {selected_dataset_name} as CSV",
         data=csv,
-        file_name='train_Accident_1900_2024_cleaned.csv',
+        file_name=f"{selected_dataset_name.replace(' ', '_').lower()}.csv",
         mime='text/csv',
     )
 
-except FileNotFoundError:
-    st.error("❌ Dataset file not found. Please check the path.")
-except Exception as e:
-    st.error(f"❌ Error loading dataset: {e}")
 
 # ---------- Styling ----------
 st.markdown("""
 <style>
-    .title-section {
-        text-align: center;
-        font-size: 24px;
-        font-weight: bold;
-        color: #007bff;
-        margin-bottom: 10px;
-    }
     .section-heading {
         font-size: 20px;
         font-weight: bold;
         color: #ff5733;
         margin-top: 20px;
-    }
-    .bullet-point {
-        margin-left: 20px;
-        font-size: 16px;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -76,27 +85,28 @@ st.markdown('<div class="section-heading">📊 Power BI Dashboard</div>', unsafe
 st.write("""
 A **Power BI dashboard** provides an interactive visual representation of accident trends and safety metrics.
 """)
-st.markdown("""
-✅ **Historical accident trends** 📈 over the decades.  
-✅ **Accident hotspots** 📍 across different states.  
-✅ **Impact of funding allocations** 💰 on accident reduction.  
-✅ **Rescue response efficiency** ⏱️ and its role in mitigating damage.  
-""")
+st.info("ℹ️ **Dataset Used:** `Uncleaned_railway_accident_1900_2024.xlsx` is the primary source for the dashboard, allowing for a complete overview of the raw data.")
+
 
 # 🐍 EDA Section
 st.markdown('<div class="section-heading">🐍 Insights and Analysis</div>', unsafe_allow_html=True)
 st.write("""
 Comprehensive exploratory data analysis (EDA) of railway accident data to uncover patterns and critical risk factors.
 """)
+st.info("ℹ️ **Dataset Used:** `train_accident_analysis dataset` is used for this section, as it contains the features and aggregations specifically created for deep analysis.")
+
 
 # 🔮 Predictive Model
 st.markdown('<div class="section-heading">🔮 Predictive Model</div>', unsafe_allow_html=True)
 st.write("""
 Machine learning-powered system that predicts railway accident severity and estimates emergency response needs.
 """)
+st.info("ℹ️ **Dataset Used:** `preprocessed_accident_data` is used to train and evaluate the predictive models, as it has been cleaned, scaled, and prepared for machine learning algorithms.")
+
 
 # 🤖 AI Chatbot
 st.markdown('<div class="section-heading">🤖 AI Chatbot</div>', unsafe_allow_html=True)
 st.write("""
 An AI-powered chatbot that provides real-time answers and insights into railway safety, trends, and recommendations.
 """)
+st.info("ℹ️ **Dataset Used:** `enhanced_accident_data` powers the chatbot, providing it with a rich, context-aware knowledge base for answering user queries accurately.")
