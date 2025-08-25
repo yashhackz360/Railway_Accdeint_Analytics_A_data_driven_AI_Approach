@@ -2,36 +2,35 @@ import streamlit as st
 import pandas as pd
 
 def show():
-   
+    """
+    This function encapsulates the entire content of the Home/Overview page.
+    It is called by the main app script to display this page.
+    """
 
-    # --- Dataset Loading from GitHub ---
+    # --- Dataset Loading from Google Drive ---
 
-    # CORRECTED: The folder name in the URL is "Assets", not "Assests".
-    # This dictionary holds the direct raw links to the datasets on GitHub.
+    # This dictionary now uses the direct download links for your Google Drive files.
     DATASETS = {
-        "Main Cleaned Data (1900-2024)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/train_Accident_1900_2024_cleaned.csv",
-        "Analysis Dataset": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/train_accident_analysis%20dataset.csv",
-        "Preprocessed Data": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/preprocessed_accident_data.csv",
-        "Enhanced Data (for AI)": "https://raw.githubusercontent.com/yashhackz360/Railway_Accdeint_Analytics_A_data_driven_AI_Approach/main/Assets/enhanced_accident_data.csv"
+        "Main Cleaned Data (XLSX)": "https://docs.google.com/spreadsheets/d/1OHSMfrEbKBrBkuPkAUaGj2AZBTyhCbKO/export?format=xlsx",
+        "Enhanced Data (for AI)": "https://drive.google.com/uc?export=download&id=1-o-0UdR5gCQ74R5B_ZjqThp2FeobRFo7",
+        "Analysis Dataset": "https://drive.google.com/uc?export=download&id=1FV7E_UifZJ3EMY8XjT3t__Q8YNqGH11c"
+        # Note: I've removed the other two datasets as links were not provided. You can add them back if needed.
     }
 
     # --- Caching the data loading function ---
-    # @st.cache_data tells Streamlit to keep the loaded data in memory,
-    # so it doesn't have to re-download the file every time the user interacts with the app.
     @st.cache_data
-    def load_data(url):
+    def load_data(url, name):
         """Loads data from a URL, handling both CSV and Excel files."""
         try:
-            # Encode spaces in the URL to ensure it's valid
-            url = url.replace(" ", "%20")
-            if url.endswith('.csv'):
-                return pd.read_csv(url)
-            elif url.endswith('.xlsx'):
+            # The logic is simplified: if the name contains XLSX, use read_excel, otherwise use read_csv.
+            if 'XLSX' in name:
                 # This requires the 'openpyxl' library to be in requirements.txt
                 return pd.read_excel(url)
+            else:
+                return pd.read_csv(url)
         except Exception as e:
-            st.error(f"Error loading data from {url}: {e}")
-            st.warning("Please ensure the file exists at the specified URL in your GitHub repository and the link is a 'raw' link.")
+            st.error(f"Error loading data from Google Drive: {e}")
+            st.warning("Please ensure the 'Share' setting for each file in Google Drive is set to 'Anyone with the link'.")
             return None
 
     # --- App Layout ---
@@ -51,10 +50,11 @@ def show():
     )
 
     selected_url = DATASETS[selected_dataset_name]
-    df = load_data(selected_url)
+    # Pass both the URL and the name to the loading function
+    df = load_data(selected_url, selected_dataset_name)
 
     if df is not None:
-        st.success(f"✅ Previewing **{selected_dataset_name}**.")
+        st.success(f"✅ Previewing **{selected_dataset_name}** from Google Drive.")
         st.dataframe(df.head())
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button(
@@ -86,14 +86,14 @@ def show():
     st.write("""
     A **Power BI dashboard** provides an interactive visual representation of accident trends and safety metrics.
     """)
-    st.info("ℹ️ **Dataset Used:** `Uncleaned_railway_accident_1900_2024.xlsx` is the primary source for the dashboard, allowing for a complete overview of the raw data.")
+    st.info("ℹ️ **Dataset Used:** `Main Cleaned Data (XLSX)` is the primary source for the dashboard, allowing for a complete overview of the raw data.")
 
     # 🐍 EDA Section
     st.markdown('<div class="section-heading">🐍 Insights and Analysis</div>', unsafe_allow_html=True)
     st.write("""
     Comprehensive exploratory data analysis (EDA) of railway accident data to uncover patterns and critical risk factors.
     """)
-    st.info("ℹ️ **Dataset Used:** `train_accident_analysis dataset` is used for this section, as it contains the features and aggregations specifically created for deep analysis.")
+    st.info("ℹ️ **Dataset Used:** `Analysis Dataset` is used for this section, as it contains the features and aggregations specifically created for deep analysis.")
 
     # 🔮 Predictive Model
     st.markdown('<div class="section-heading">🔮 Predictive Model</div>', unsafe_allow_html=True)
@@ -107,11 +107,9 @@ def show():
     st.write("""
     An AI-powered chatbot that provides real-time answers and insights into railway safety, trends, and recommendations.
     """)
-    st.info("ℹ️ **Dataset Used:** `enhanced_accident_data` powers the chatbot, providing it with a rich, context-aware knowledge base for answering user queries accurately.")
+    st.info("ℹ️ **Dataset Used:** `Enhanced Data (for AI)` powers the chatbot, providing it with a rich, context-aware knowledge base for answering user queries accurately.")
 
 # This block allows you to run this page's script directly for testing
 if __name__ == "__main__":
-    # st.set_page_config should be the first Streamlit command run.
-    # It's best placed in your main entry-point script (e.g., main.py)
     st.set_page_config(page_title="Railway Accident Analytics - Overview", layout="wide")
     show()
