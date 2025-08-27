@@ -7,17 +7,20 @@ def show():
     GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
     GROQ_API_KEY = ""  # Replace with your actual API key
 
-    # ✅ Load Railway Accident Data
-    @st.cache_data
-    def load_data():
-        try:
-            df = pd.read_csv("Assests/train_Accident_1900_2024_cleaned.csv")
-            return df
-        except FileNotFoundError:
-            st.error("⚠️ Railway accident dataset not found!")
-            return None
+   # ✅ Load AI Chat Assistant Data from Google Drive
+@st.cache_data
+def load_data():
+    # Direct download URL for the 'enhanced_accident_data.csv' file
+    gdrive_url = "https://drive.google.com/uc?export=download&id=1-o-0UdR5gCQ74R5B_ZjqThp2FeobRFo7"
+    try:
+        df = pd.read_csv(gdrive_url)
+        return df
+    except Exception as e:
+        st.error(f"⚠️ Error loading data from Google Drive: {e}")
+        return None
 
-    df = load_data()
+df = load_data()
+
 
     # ✅ Query Functions for Dataset
     def get_accident_stats():
