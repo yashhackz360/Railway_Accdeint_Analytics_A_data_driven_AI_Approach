@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 840" width="1500" height="840" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#22C55E"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#EAB308"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38BDF8"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#A855F7"/>
+    </marker>
+    <marker id="arrowRose" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#F43F5E"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#F97316"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="840" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="750" y="45" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="bold">
+    Railway Accident Analytics: End-to-End Application Workflow
+  </text>
+  <text x="750" y="75" text-anchor="middle" fill="#93C5FD" font-size="14">
+    5-Module Decision-Support Architecture (Streamlit + Power BI + Scikit-Learn + Groq GPT-OSS 120B)
+  </text>
+
+  <!-- Column Stage Headers -->
+  <text x="115" y="118" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="bold">1. USER &amp; ENTRY</text>
+  <text x="380" y="118" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="bold">2. APP MODULES</text>
+  <text x="690" y="118" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="bold">3. DATA &amp; INPUTS</text>
+  <text x="1025" y="118" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="bold">4. PROCESSING / AI ENGINE</text>
+  <text x="1345" y="118" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="bold">5. DECISION OUTPUTS</text>
+
+  <!-- Left Entry Column: User & Streamlit Hub -->
+  <rect x="30" y="250" width="170" height="95" rx="12" fill="#1E3A8A" stroke="#60A5FA" stroke-width="2.5"/>
+  <text x="115" y="290" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Safety Officer /</text>
+  <text x="115" y="310" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Railway Planner</text>
+  <text x="115" y="330" text-anchor="middle" fill="#BFDBFE" font-size="11">Decision Maker</text>
+
+  <line x1="115" y1="345" x2="115" y2="415" stroke="#F97316" stroke-width="2.5" marker-end="url(#arrowOrange)"/>
+
+  <rect x="30" y="425" width="170" height="115" rx="12" fill="#0F172A" stroke="#F97316" stroke-width="2.5"/>
+  <text x="115" y="462" text-anchor="middle" fill="#FDBA74" font-size="15" font-weight="bold">Streamlit Hub</text>
+  <text x="115" y="484" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="bold">(main.py)</text>
+  <text x="115" y="506" text-anchor="middle" fill="#CBD5E1" font-size="11">option_menu Router</text>
+  <text x="115" y="524" text-anchor="middle" fill="#94A3B8" font-size="11">Streamlit Cloud</text>
+
+  <!-- Hub-to-Module Connector Lines -->
+  <path d="M200,482 L235,482 L235,190 L265,190" fill="none" stroke="#22C55E" stroke-width="2.2" marker-end="url(#arrowGreen)"/>
+  <path d="M200,482 L235,482 L235,320 L265,320" fill="none" stroke="#EAB308" stroke-width="2.2" marker-end="url(#arrowYellow)"/>
+  <path d="M200,482 L235,482 L235,450 L265,450" fill="none" stroke="#38BDF8" stroke-width="2.2" marker-end="url(#arrowBlue)"/>
+  <path d="M200,482 L235,482 L235,580 L265,580" fill="none" stroke="#A855F7" stroke-width="2.2" marker-end="url(#arrowPurple)"/>
+  <path d="M200,482 L235,482 L235,710 L265,710" fill="none" stroke="#F43F5E" stroke-width="2.2" marker-end="url(#arrowRose)"/>
+
+  <!-- ==================== ROW 1: HOME OVERVIEW ==================== -->
+  <rect x="275" y="145" width="210" height="90" rx="10" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <text x="380" y="182" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">1. Home Overview</text>
+  <text x="380" y="206" text-anchor="middle" fill="#86EFAC" font-size="12">Home_overview.py</text>
+
+  <line x1="485" y1="190" x2="555" y2="190" stroke="#22C55E" stroke-width="2.2" marker-end="url(#arrowGreen)"/>
+
+  <rect x="565" y="145" width="250" height="90" rx="10" fill="#0F172A" stroke="#22C55E" stroke-width="2"/>
+  <text x="690" y="182" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Cloud CSV / XLSX URLs</text>
+  <text x="690" y="206" text-anchor="middle" fill="#CBD5E1" font-size="12">1902–2024 Accident Datasets</text>
+
+  <line x1="815" y1="190" x2="885" y2="190" stroke="#22C55E" stroke-width="2.2" marker-end="url(#arrowGreen)"/>
+
+  <rect x="895" y="145" width="260" height="90" rx="10" fill="#1E293B" stroke="#22C55E" stroke-width="2"/>
+  <text x="1025" y="182" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Pandas Data Loader</text>
+  <text x="1025" y="206" text-anchor="middle" fill="#CBD5E1" font-size="12">@st.cache_data Caching</text>
+
+  <line x1="1155" y1="190" x2="1215" y2="190" stroke="#22C55E" stroke-width="2.2" marker-end="url(#arrowGreen)"/>
+
+  <rect x="1225" y="145" width="240" height="90" rx="10" fill="#0F172A" stroke="#22C55E" stroke-width="2"/>
+  <text x="1345" y="182" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Dataset Explorer</text>
+  <text x="1345" y="206" text-anchor="middle" fill="#86EFAC" font-size="12">Preview &amp; CSV Download</text>
+
+  <!-- ==================== ROW 2: POWER BI REPORT ==================== -->
+  <rect x="275" y="275" width="210" height="90" rx="10" fill="#1E293B" stroke="#EAB308" stroke-width="2"/>
+  <text x="380" y="312" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">2. Power BI Report</text>
+  <text x="380" y="336" text-anchor="middle" fill="#FDE047" font-size="12">Power_BI_Report.py</text>
+
+  <line x1="485" y1="320" x2="555" y2="320" stroke="#EAB308" stroke-width="2.2" marker-end="url(#arrowYellow)"/>
+
+  <rect x="565" y="275" width="250" height="90" rx="10" fill="#0F172A" stroke="#EAB308" stroke-width="2"/>
+  <text x="690" y="312" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Microsoft Fabric / PBI</text>
+  <text x="690" y="336" text-anchor="middle" fill="#CBD5E1" font-size="12">Hosted Report Service</text>
+
+  <line x1="815" y1="320" x2="885" y2="320" stroke="#EAB308" stroke-width="2.2" marker-end="url(#arrowYellow)"/>
+
+  <rect x="895" y="275" width="260" height="90" rx="10" fill="#1E293B" stroke="#EAB308" stroke-width="2"/>
+  <text x="1025" y="312" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">HTML iframe Integration</text>
+  <text x="1025" y="336" text-anchor="middle" fill="#CBD5E1" font-size="12">Multi-Tab Embedded Views</text>
+
+  <line x1="1155" y1="320" x2="1215" y2="320" stroke="#EAB308" stroke-width="2.2" marker-end="url(#arrowYellow)"/>
+
+  <rect x="1225" y="275" width="240" height="90" rx="10" fill="#0F172A" stroke="#EAB308" stroke-width="2"/>
+  <text x="1345" y="312" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Executive Dashboard</text>
+  <text x="1345" y="336" text-anchor="middle" fill="#FDE047" font-size="12">KPIs &amp; Drill-Down Slicing</text>
+
+  <!-- ==================== ROW 3: INSIGHTS & ANALYSIS ==================== -->
+  <rect x="275" y="405" width="210" height="90" rx="10" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+  <text x="380" y="442" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">3. Insights &amp; Analysis</text>
+  <text x="380" y="466" text-anchor="middle" fill="#7DD3FC" font-size="12">Insights_and_Analysis.py</text>
+
+  <line x1="485" y1="450" x2="555" y2="450" stroke="#38BDF8" stroke-width="2.2" marker-end="url(#arrowBlue)"/>
+
+  <rect x="565" y="405" width="250" height="90" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+  <text x="690" y="442" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">User CSV Upload</text>
+  <text x="690" y="466" text-anchor="middle" fill="#CBD5E1" font-size="12">time, train_name, division, cause</text>
+
+  <line x1="815" y1="450" x2="885" y2="450" stroke="#38BDF8" stroke-width="2.2" marker-end="url(#arrowBlue)"/>
+
+  <rect x="895" y="405" width="260" height="90" rx="10" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+  <text x="1025" y="436" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Feature Engineering</text>
+  <text x="1025" y="458" text-anchor="middle" fill="#CBD5E1" font-size="11.5">Derives Hour, Daytime, Season,</text>
+  <text x="1025" y="476" text-anchor="middle" fill="#CBD5E1" font-size="11.5">Region &amp; Train Type</text>
+
+  <line x1="1155" y1="450" x2="1215" y2="450" stroke="#38BDF8" stroke-width="2.2" marker-end="url(#arrowBlue)"/>
+
+  <rect x="1225" y="405" width="240" height="90" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+  <text x="1345" y="442" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Diagnostic EDA Charts</text>
+  <text x="1345" y="466" text-anchor="middle" fill="#7DD3FC" font-size="12">Seaborn Cause &amp; Casualty Plots</text>
+
+  <!-- ==================== ROW 4: PREDICTIVE MODEL ==================== -->
+  <rect x="275" y="535" width="210" height="90" rx="10" fill="#1E293B" stroke="#A855F7" stroke-width="2"/>
+  <text x="380" y="572" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">4. Predictive Model</text>
+  <text x="380" y="596" text-anchor="middle" fill="#D8B4FE" font-size="12">Predictive_Model.py</text>
+
+  <line x1="485" y1="580" x2="555" y2="580" stroke="#A855F7" stroke-width="2.2" marker-end="url(#arrowPurple)"/>
+
+  <rect x="565" y="535" width="250" height="90" rx="10" fill="#0F172A" stroke="#A855F7" stroke-width="2"/>
+  <text x="690" y="566" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">User CSV Upload + Inputs</text>
+  <text x="690" y="588" text-anchor="middle" fill="#CBD5E1" font-size="11.5">Accident Type, Deaths,</text>
+  <text x="690" y="606" text-anchor="middle" fill="#CBD5E1" font-size="11.5">Injuries, Rescue Time (hrs)</text>
+
+  <line x1="815" y1="580" x2="885" y2="580" stroke="#A855F7" stroke-width="2.2" marker-end="url(#arrowPurple)"/>
+
+  <rect x="895" y="535" width="260" height="90" rx="10" fill="#1E293B" stroke="#A855F7" stroke-width="2"/>
+  <text x="1025" y="566" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Sklearn Pipeline + RF</text>
+  <text x="1025" y="588" text-anchor="middle" fill="#CBD5E1" font-size="11.5">Impute, Scale, OneHot +</text>
+  <text x="1025" y="606" text-anchor="middle" fill="#CBD5E1" font-size="11.5">RandomForestRegressor (MAE/R²)</text>
+
+  <line x1="1155" y1="580" x2="1215" y2="580" stroke="#A855F7" stroke-width="2.2" marker-end="url(#arrowPurple)"/>
+
+  <rect x="1225" y="535" width="240" height="90" rx="10" fill="#0F172A" stroke="#A855F7" stroke-width="2"/>
+  <text x="1345" y="566" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Severity &amp; Resources</text>
+  <text x="1345" y="588" text-anchor="middle" fill="#D8B4FE" font-size="11.5">Severity Level, Ambulances</text>
+  <text x="1345" y="606" text-anchor="middle" fill="#D8B4FE" font-size="11.5">&amp; Damage Cost (INR)</text>
+
+  <!-- ==================== ROW 5: AI ASSISTANT ==================== -->
+  <rect x="275" y="665" width="210" height="90" rx="10" fill="#1E293B" stroke="#F43F5E" stroke-width="2"/>
+  <text x="380" y="702" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">5. AI Assistant</text>
+  <text x="380" y="726" text-anchor="middle" fill="#FDA4AF" font-size="12">llama_Assitant.py</text>
+
+  <line x1="485" y1="710" x2="555" y2="710" stroke="#F43F5E" stroke-width="2.2" marker-end="url(#arrowRose)"/>
+
+  <rect x="565" y="665" width="250" height="90" rx="10" fill="#0F172A" stroke="#F43F5E" stroke-width="2"/>
+  <text x="690" y="702" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Natural-Language Query</text>
+  <text x="690" y="726" text-anchor="middle" fill="#CBD5E1" font-size="12">+ st.secrets["GROQ_API_KEY"]</text>
+
+  <line x1="815" y1="710" x2="885" y2="710" stroke="#F43F5E" stroke-width="2.2" marker-end="url(#arrowRose)"/>
+
+  <rect x="895" y="665" width="260" height="90" rx="10" fill="#1E293B" stroke="#F43F5E" stroke-width="2"/>
+  <text x="1025" y="702" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Groq Cloud LLM API</text>
+  <text x="1025" y="726" text-anchor="middle" fill="#CBD5E1" font-size="12">openai/gpt-oss-120b (~1s Latency)</text>
+
+  <line x1="1155" y1="710" x2="1215" y2="710" stroke="#F43F5E" stroke-width="2.2" marker-end="url(#arrowRose)"/>
+
+  <rect x="1225" y="665" width="240" height="90" rx="10" fill="#0F172A" stroke="#F43F5E" stroke-width="2"/>
+  <text x="1345" y="702" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Conversational Q&amp;A</text>
+  <text x="1345" y="726" text-anchor="middle" fill="#FDA4AF" font-size="12">Railway Safety &amp; History Answers</text>
+
+  <!-- Footer Summary Bar -->
+  <text x="750" y="805" text-anchor="middle" fill="#94A3B8" font-size="13">
+    Descriptive Analytics (Home, Power BI)   |   Diagnostic Analytics (Insights &amp; EDA)   |   Predictive &amp; Prescriptive ML (Random Forest + Cost/Ambulance Formulas)   |   Conversational AI (Groq 120B)
+  </text>
+</svg>
