@@ -93,7 +93,7 @@ def show():
     st.markdown(
         """
         <div style="text-align: center; color: #60A5FA;">
-            <h1> 🔍 Groq API Llama3 Model Chatbot </h1>
+            <h1> 🔍 Groq API GPT-OSS 120B Model Chatbot </h1>
         </div>
         """,
         unsafe_allow_html=True
