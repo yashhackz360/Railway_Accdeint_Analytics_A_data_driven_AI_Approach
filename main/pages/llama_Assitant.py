@@ -1,4 +1,4 @@
-import pandas as pd
+﻿import pandas as pd
 import streamlit as st
 import requests
 
@@ -75,7 +75,7 @@ def show():
 
         headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
         data = {
-            "model": "llama3-8b-8192",
+            "model": "llama-3.1-8b-instant",
             "messages": [{"role": "user", "content": enhanced_prompt}],
             "max_tokens": 750
         }
